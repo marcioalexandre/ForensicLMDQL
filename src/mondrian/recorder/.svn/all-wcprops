@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/recorder
+END
+ListRecorder.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/recorder/ListRecorder.java
+END
+RecorderException.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/LMDQL/!svn/ver/16/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/recorder/RecorderException.java
+END
+LoggerRecorder.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/LMDQL/!svn/ver/16/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/recorder/LoggerRecorder.java
+END
+AbstractRecorder.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/recorder/AbstractRecorder.java
+END
+MessageRecorder.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/LMDQL/!svn/ver/16/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/recorder/MessageRecorder.java
+END
+PrintStreamRecorder.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/recorder/PrintStreamRecorder.java
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/LMDQL/!svn/ver/16/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/recorder/package.html
+END

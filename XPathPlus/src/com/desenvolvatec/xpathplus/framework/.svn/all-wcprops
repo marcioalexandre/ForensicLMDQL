@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/LMDQL/!svn/ver/152/LMDQL/Codifica%C3%A7%C3%A3o/jdev/XPathPlus/src/com/desenvolvatec/xpathplus/framework
+END
+Expansor.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/LMDQL/!svn/ver/108/LMDQL/Codifica%C3%A7%C3%A3o/jdev/XPathPlus/src/com/desenvolvatec/xpathplus/framework/Expansor.java
+END
+XmlDocument.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/LMDQL/!svn/ver/152/LMDQL/Codifica%C3%A7%C3%A3o/jdev/XPathPlus/src/com/desenvolvatec/xpathplus/framework/XmlDocument.java
+END
+CommandAllArcs.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/LMDQL/!svn/ver/97/LMDQL/Codifica%C3%A7%C3%A3o/jdev/XPathPlus/src/com/desenvolvatec/xpathplus/framework/CommandAllArcs.java
+END
+CommandXPath.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/LMDQL/!svn/ver/97/LMDQL/Codifica%C3%A7%C3%A3o/jdev/XPathPlus/src/com/desenvolvatec/xpathplus/framework/CommandXPath.java
+END
+Context.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/LMDQL/!svn/ver/100/LMDQL/Codifica%C3%A7%C3%A3o/jdev/XPathPlus/src/com/desenvolvatec/xpathplus/framework/Context.java
+END
+Arc.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/LMDQL/!svn/ver/151/LMDQL/Codifica%C3%A7%C3%A3o/jdev/XPathPlus/src/com/desenvolvatec/xpathplus/framework/Arc.java
+END
+CommandXPathPlus.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/LMDQL/!svn/ver/97/LMDQL/Codifica%C3%A7%C3%A3o/jdev/XPathPlus/src/com/desenvolvatec/xpathplus/framework/CommandXPathPlus.java
+END
+XPathPlusExecutor.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/LMDQL/!svn/ver/149/LMDQL/Codifica%C3%A7%C3%A3o/jdev/XPathPlus/src/com/desenvolvatec/xpathplus/framework/XPathPlusExecutor.java
+END
+Parser.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/LMDQL/!svn/ver/97/LMDQL/Codifica%C3%A7%C3%A3o/jdev/XPathPlus/src/com/desenvolvatec/xpathplus/framework/Parser.java
+END
+Command.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/LMDQL/!svn/ver/108/LMDQL/Codifica%C3%A7%C3%A3o/jdev/XPathPlus/src/com/desenvolvatec/xpathplus/framework/Command.java
+END
+CommandSpecificElement.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/LMDQL/!svn/ver/89/LMDQL/Codifica%C3%A7%C3%A3o/jdev/XPathPlus/src/com/desenvolvatec/xpathplus/framework/CommandSpecificElement.java
+END

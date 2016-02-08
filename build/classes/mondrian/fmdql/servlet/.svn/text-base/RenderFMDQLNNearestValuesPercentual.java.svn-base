@@ -1,0 +1,173 @@
+package mondrian.fmdql.servlet;
+
+import java.text.DecimalFormat;
+import java.text.NumberFormat;
+import java.util.ArrayList;
+import java.util.List;
+
+import mondrian.olap.Cell;
+import mondrian.olap.Member;
+import mondrian.olap.Position;
+import mondrian.udf.NNearestValuesPercentual;
+import mondrian.udf.Separatrix;
+
+public class RenderFMDQLNNearestValuesPercentual extends RenderFMDQL implements IRenderFMDQL {
+
+	private List<Double> valoresProximos;
+
+	public int quantidadeDeColunasExtras() {				
+		List<Double> valores = new ArrayList<Double>();
+		 
+		 if(this.getRows() != null) {
+		    
+		 for (int i = 0; i < this.getRows().size(); i++) { 
+		    	
+	        for (int j = 0; j < this.getColumns().size(); j++) {
+	            	                    	
+	        	Cell cell = this.getResultado().getCell(new int[]{j,i});
+	            String formattedValue = cell.getFormattedValue();
+	            formattedValue = formattedValue.replace(",", "");
+	            	
+	            double valor = 0.0;
+	            if(!formattedValue.trim().equals("")) {
+	            	valor = Double.parseDouble(formattedValue);
+	            }                							
+				valores.add(valor);	
+	           }
+	     }
+		 this.valoresProximos = NNearestValuesPercentual.getNNearestValuesPercentual(valores);
+		 }
+		 return this.valoresProximos.size();
+
+	}
+	
+	public StringBuffer renderResultado(StringBuffer html) {	
+	    
+	    String linhaCabecalhoPercentis = "<tr>";
+	    linhaCabecalhoPercentis = linhaCabecalhoPercentis + "<td nowrap class='rowheading' align='center'>&nbsp;</td>";
+	    for(Double valor : valoresProximos) {
+	    	linhaCabecalhoPercentis = linhaCabecalhoPercentis + "<td nowrap class='rowheading' align='center'>&nbsp;</td>";
+	    }
+	    linhaCabecalhoPercentis = linhaCabecalhoPercentis + "<td nowrap class='rowheading' align='center'>&nbsp;</td>";
+	    linhaCabecalhoPercentis = linhaCabecalhoPercentis + "</tr>\n"; 
+        html.append(linhaCabecalhoPercentis);	
+	    
+	    
+        linhaCabecalhoPercentis = "<tr>";
+		linhaCabecalhoPercentis = linhaCabecalhoPercentis + "<td nowrap class='rowheading'>&nbsp;</td>\n<td nowrap class='rowheading' colspan='100' align='center'>";
+		
+		NumberFormat nf = new DecimalFormat("0.00");
+		
+		// montando a linha com os valores
+	    for(Double valor : valoresProximos) {
+	    	String x = nf.format(valor);//valor.toString();
+	    	String membroNome = getMemberName(valor);
+	    	x = x.replace('.', ',');
+	    	linhaCabecalhoPercentis = linhaCabecalhoPercentis + this.gerarEspacamento2(this.valoresProximos.size()) /*"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"*/ + membroNome + " " + x;
+	    }  
+	        	    
+        linhaCabecalhoPercentis = linhaCabecalhoPercentis + this.gerarEspacamento2(this.valoresProximos.size()) /*"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;8*/ + "</td></tr>\n"; 
+        html.append(linhaCabecalhoPercentis);	
+        
+        
+        int contadorPorcentagens = 0;
+        for (int i=0; i<1/*this.getRows().size()*/; i++) {
+            html.append("<tr>");
+            final Position row = this.getRows().get(i);
+            Member memberRow1 = row.get(0);
+                html.append("<td nowrap class='rowheading'>").append(
+                		memberRow1.getUniqueName()).append("</td>");
+          
+            for (int j = 0; j< this.getColumns().size(); j++) {            	                    	
+                        	
+            	Cell cell = this.getResultado().getCell(new int[]{j,i});  
+            	String formattedValue = cell.getFormattedValue();
+            	formattedValue = formattedValue.replace(",", "");
+            	formattedValue = formattedValue.replace(".", "");
+            	
+            	int posicaoValor = Separatrix.posicaoRelativa(Double.parseDouble(formattedValue), valoresProximos);
+            	
+            	showCellNNearest(html, cell, posicaoValor, valoresProximos.size() + 1);
+                contadorPorcentagens++;
+            
+            }
+            
+            html.append("</tr>");
+        }
+        
+        
+	
+		return html;	   
+	    
+	}
+	
+	
+	// obtendo o nome do membro (local) que possui o valor desejado
+	private String getMemberName(Double valorMembro) {
+		 for (int i = 0; i < this.getRows().size(); i++) { 
+		        for (int j = 0; j < this.getColumns().size(); j++) {
+		        	Cell cell = this.getResultado().getCell(new int[]{j,i});
+		        	double valor = (Double)cell.getValue();
+		        	if(valor==valorMembro) {
+		        		Member membro = this.getRows().get(i).get(j);
+		        		return membro.getUniqueName();
+		        	}
+		        }
+		 }
+		 return null;
+	}
+	
+	private void showCellNNearest( StringBuffer out, Cell cell, int posicaovalor, int totalValores) {
+    	
+    	if(cell.getFormattedValue().trim().equals("")) {
+    		
+    		 out.append("<td class='cell'></td>");
+    		 out.append("<td class='cell'></td>");
+    	}else {
+    		
+    		for(int i = 0; i < totalValores; i++) {
+    			
+    			String linha = "<td class='cell'>";
+    			
+    			
+    			String espacamento = "";
+    			if(posicaovalor == i) {
+    				String procentagemFormatada = this.formatValor(cell.getFormattedValue());
+    				linha = linha + procentagemFormatada;
+    			}else {
+    				espacamento = this.gerarEspacamento(totalValores);
+    			}
+    			
+    			
+    			linha = linha + espacamento +"&nbsp;</td>";
+    			out.append(linha);
+    		}    		 
+    	}       
+    }
+	
+	
+	public String gerarEspacamento(int totalDeIndicesPadrao) {
+		String retorno = "";
+		
+		for(int i = 0; i < (24/totalDeIndicesPadrao); i++) {
+			retorno = retorno + "&nbsp;";
+		}
+		
+		return retorno;
+	}
+	
+	
+	public String gerarEspacamento2(int totalDeIndicesPadrao) {
+		String retorno = "";
+
+		if(totalDeIndicesPadrao!=0)
+			for(int i = 0; i < (25/totalDeIndicesPadrao); i++) {
+				retorno = retorno + "&nbsp;";
+			}
+		
+		return retorno;
+	}
+	
+	
+
+}

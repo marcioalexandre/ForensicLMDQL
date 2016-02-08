@@ -1,0 +1,569 @@
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/LMDQL/!svn/ver/165/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/olap/fun
+END
+VarPFunDef.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/olap/fun/VarPFunDef.java
+END
+ToggleDrillStateFunDef.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/olap/fun/ToggleDrillStateFunDef.java
+END
+ExtractFunDef.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/olap/fun/ExtractFunDef.java
+END
+AncestorFunDef.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/olap/fun/AncestorFunDef.java
+END
+MemberHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/LMDQL/!svn/ver/16/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/olap/fun/MemberHelper.java
+END
+SimpleResolver.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/olap/fun/SimpleResolver.java
+END
+StrToTupleFunDef.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/olap/fun/StrToTupleFunDef.java
+END
+AggregateFunDef.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/olap/fun/AggregateFunDef.java
+END
+DrilldownMemberFunDef.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/olap/fun/DrilldownMemberFunDef.java
+END
+FormatFunDef.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/olap/fun/FormatFunDef.java
+END
+VarFunDef.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/olap/fun/VarFunDef.java
+END
+TupleFunDef.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/olap/fun/TupleFunDef.java
+END
+PropertiesFunDef.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/olap/fun/PropertiesFunDef.java
+END
+CoalesceEmptyFunDef.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/olap/fun/CoalesceEmptyFunDef.java
+END
+TopBottomPercentSumFunDef.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/olap/fun/TopBottomPercentSumFunDef.java
+END
+XtdFunDef.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/olap/fun/XtdFunDef.java
+END
+IntersectFunDef.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/olap/fun/IntersectFunDef.java
+END
+NonEmptyCrossJoinFunDef.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/olap/fun/NonEmptyCrossJoinFunDef.java
+END
+SubsetFunDef.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/olap/fun/SubsetFunDef.java
+END
+PeriodsToDateFunDef.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/olap/fun/PeriodsToDateFunDef.java
+END
+Resolver.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/olap/fun/Resolver.java
+END
+FunDefBase.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/olap/fun/FunDefBase.java
+END
+SetItemFunDef.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/olap/fun/SetItemFunDef.java
+END
+HeadTailFunDef.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/olap/fun/HeadTailFunDef.java
+END
+FunInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/olap/fun/FunInfo.java
+END
+ExistsFunDef.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/olap/fun/ExistsFunDef.java
+END
+OpeningClosingPeriodFunDef.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/olap/fun/OpeningClosingPeriodFunDef.java
+END
+TupleToStrFunDef.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/olap/fun/TupleToStrFunDef.java
+END
+MondrianEvaluationException.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/LMDQL/!svn/ver/16/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/olap/fun/MondrianEvaluationException.java
+END
+DrilldownLevelFunDef.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/olap/fun/DrilldownLevelFunDef.java
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/LMDQL/!svn/ver/16/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/olap/fun/package.html
+END
+CaseMatchFunDef.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/olap/fun/CaseMatchFunDef.java
+END
+ExceptFunDef.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/olap/fun/ExceptFunDef.java
+END
+UnionFunDef.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/olap/fun/UnionFunDef.java
+END
+MinMaxFunDef.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/olap/fun/MinMaxFunDef.java
+END
+RankFunDef.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/olap/fun/RankFunDef.java
+END
+ParallelPeriodFunDef.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/olap/fun/ParallelPeriodFunDef.java
+END
+TupleItemFunDef.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/olap/fun/TupleItemFunDef.java
+END
+HierarchyCurrentMemberFunDef.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/olap/fun/HierarchyCurrentMemberFunDef.java
+END
+CrossJoinFunDef.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/olap/fun/CrossJoinFunDef.java
+END
+OrderFunDef.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/olap/fun/OrderFunDef.java
+END
+IsFunDef.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/olap/fun/IsFunDef.java
+END
+CustomizedFunctionTable.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/olap/fun/CustomizedFunctionTable.java
+END
+ValueFunDef.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/olap/fun/ValueFunDef.java
+END
+AvgFunDef.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/olap/fun/AvgFunDef.java
+END
+DistinctFunDef.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/olap/fun/DistinctFunDef.java
+END
+HierarchyDimensionFunDef.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/olap/fun/HierarchyDimensionFunDef.java
+END
+ArrayHolder.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/LMDQL/!svn/ver/16/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/olap/fun/ArrayHolder.java
+END
+StdevFunDef.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/olap/fun/StdevFunDef.java
+END
+SetToStrFunDef.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/olap/fun/SetToStrFunDef.java
+END
+LinReg.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/olap/fun/LinReg.java
+END
+IsEmptyFunDef.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/olap/fun/IsEmptyFunDef.java
+END
+GenerateFunDef.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/olap/fun/GenerateFunDef.java
+END
+CastFunDef.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/olap/fun/CastFunDef.java
+END
+FunTableImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/LMDQL/!svn/ver/165/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/olap/fun/FunTableImpl.java
+END
+ReflectiveMultiResolver.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/olap/fun/ReflectiveMultiResolver.java
+END
+FunUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/olap/fun/FunUtil.java
+END
+MemberLevelFunDef.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/olap/fun/MemberLevelFunDef.java
+END
+BuiltinFunTable.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/olap/fun/BuiltinFunTable.java
+END
+TopBottomCountFunDef.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/olap/fun/TopBottomCountFunDef.java
+END
+CacheFunDef.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/olap/fun/CacheFunDef.java
+END
+ResolverBase.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/olap/fun/ResolverBase.java
+END
+SumFunDef.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/olap/fun/SumFunDef.java
+END
+StdevPFunDef.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/olap/fun/StdevPFunDef.java
+END
+IifFunDef.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/olap/fun/IifFunDef.java
+END
+UdfResolver.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/olap/fun/UdfResolver.java
+END
+CovarianceFunDef.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/olap/fun/CovarianceFunDef.java
+END
+AbstractAggregateFunDef.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/olap/fun/AbstractAggregateFunDef.java
+END
+CaseTestFunDef.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/olap/fun/CaseTestFunDef.java
+END
+ParameterFunDef.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/olap/fun/ParameterFunDef.java
+END
+DimensionCurrentMemberFunDef.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/olap/fun/DimensionCurrentMemberFunDef.java
+END
+ParenthesesFunDef.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/olap/fun/ParenthesesFunDef.java
+END
+JavaFunDef.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/olap/fun/JavaFunDef.java
+END
+CorrelationFunDef.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/olap/fun/CorrelationFunDef.java
+END
+ValidMeasureFunDef.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/olap/fun/ValidMeasureFunDef.java
+END
+MultiResolver.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/olap/fun/MultiResolver.java
+END
+AddCalculatedMembersFunDef.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/olap/fun/AddCalculatedMembersFunDef.java
+END
+FilterFunDef.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/olap/fun/FilterFunDef.java
+END
+StrToSetFunDef.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/olap/fun/StrToSetFunDef.java
+END
+CountFunDef.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/olap/fun/CountFunDef.java
+END
+LeadLagFunDef.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/olap/fun/LeadLagFunDef.java
+END
+LastPeriodsFunDef.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/olap/fun/LastPeriodsFunDef.java
+END
+GlobalFunTable.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/olap/fun/GlobalFunTable.java
+END
+PercentileFunDef.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/olap/fun/PercentileFunDef.java
+END
+VisualTotalsFunDef.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/olap/fun/VisualTotalsFunDef.java
+END
+DescendantsFunDef.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/olap/fun/DescendantsFunDef.java
+END
+SetFunDef.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/olap/fun/SetFunDef.java
+END
+RangeFunDef.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/olap/fun/RangeFunDef.java
+END
+MedianFunDef.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/olap/fun/MedianFunDef.java
+END
+HierarchizeFunDef.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/olap/fun/HierarchizeFunDef.java
+END
+DrilldownLevelTopBottomFunDef.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/olap/fun/DrilldownLevelTopBottomFunDef.java
+END
+MemberHierarchyFunDef.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/olap/fun/MemberHierarchyFunDef.java
+END
+LevelHierarchyFunDef.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/olap/fun/LevelHierarchyFunDef.java
+END
+IsNullFunDef.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/olap/fun/IsNullFunDef.java
+END

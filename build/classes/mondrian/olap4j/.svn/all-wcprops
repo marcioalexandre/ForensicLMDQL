@@ -1,0 +1,149 @@
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/olap4j
+END
+FactoryJdbc4Impl.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/olap4j/FactoryJdbc4Impl.java
+END
+MondrianOlap4jConnection.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/olap4j/MondrianOlap4jConnection.java
+END
+MondrianOlap4jSchema.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/olap4j/MondrianOlap4jSchema.java
+END
+MondrianOlap4jNamedSet.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/olap4j/MondrianOlap4jNamedSet.java
+END
+MondrianOlap4jMeasure.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/olap4j/MondrianOlap4jMeasure.java
+END
+MondrianOlap4jStatement.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/olap4j/MondrianOlap4jStatement.java
+END
+Factory.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/olap4j/Factory.java
+END
+MondrianOlap4jDatabaseMetaData.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/olap4j/MondrianOlap4jDatabaseMetaData.java
+END
+MondrianOlap4jMember.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/olap4j/MondrianOlap4jMember.java
+END
+EmptyResultSet.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/olap4j/EmptyResultSet.java
+END
+MondrianOlap4jLevel.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/olap4j/MondrianOlap4jLevel.java
+END
+MondrianOlap4jCatalog.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/olap4j/MondrianOlap4jCatalog.java
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/LMDQL/!svn/ver/16/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/olap4j/package.html
+END
+MondrianOlap4jCube.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/olap4j/MondrianOlap4jCube.java
+END
+MondrianOlap4jHierarchy.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/olap4j/MondrianOlap4jHierarchy.java
+END
+MondrianOlap4jCell.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/olap4j/MondrianOlap4jCell.java
+END
+MondrianOlap4jCellSetAxis.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/olap4j/MondrianOlap4jCellSetAxis.java
+END
+MondrianOlap4jCellSetAxisMetaData.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/olap4j/MondrianOlap4jCellSetAxisMetaData.java
+END
+MondrianOlap4jProperty.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/olap4j/MondrianOlap4jProperty.java
+END
+MondrianOlap4jDimension.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/olap4j/MondrianOlap4jDimension.java
+END
+MondrianOlap4jPreparedStatement.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/olap4j/MondrianOlap4jPreparedStatement.java
+END
+MondrianOlap4jDriver.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/olap4j/MondrianOlap4jDriver.java
+END
+MondrianOlap4jCellSet.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/olap4j/MondrianOlap4jCellSet.java
+END
+MondrianOlap4jCellSetMetaData.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/olap4j/MondrianOlap4jCellSetMetaData.java
+END

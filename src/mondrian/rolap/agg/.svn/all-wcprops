@@ -1,0 +1,179 @@
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/rolap/agg
+END
+AggQuerySpec.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/rolap/agg/AggQuerySpec.java
+END
+AggregationKey.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/LMDQL/!svn/ver/16/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/rolap/agg/AggregationKey.java
+END
+OrPredicate.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/rolap/agg/OrPredicate.java
+END
+SegmentArrayQuerySpec.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/rolap/agg/SegmentArrayQuerySpec.java
+END
+Segment.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/rolap/agg/Segment.java
+END
+MemberTuplePredicate.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/rolap/agg/MemberTuplePredicate.java
+END
+AbstractColumnPredicate.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/rolap/agg/AbstractColumnPredicate.java
+END
+AbstractQuerySpec.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/rolap/agg/AbstractQuerySpec.java
+END
+MinusStarPredicate.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/rolap/agg/MinusStarPredicate.java
+END
+MemberColumnPredicate.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/rolap/agg/MemberColumnPredicate.java
+END
+GroupingSet.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/LMDQL/!svn/ver/16/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/rolap/agg/GroupingSet.java
+END
+LiteralStarPredicate.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/rolap/agg/LiteralStarPredicate.java
+END
+SegmentDataset.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/rolap/agg/SegmentDataset.java
+END
+DrillThroughQuerySpec.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/rolap/agg/DrillThroughQuerySpec.java
+END
+ListColumnPredicate.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/rolap/agg/ListColumnPredicate.java
+END
+ValueColumnPredicate.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/rolap/agg/ValueColumnPredicate.java
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/LMDQL/!svn/ver/16/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/rolap/agg/package.html
+END
+QuerySpec.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/LMDQL/!svn/ver/16/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/rolap/agg/QuerySpec.java
+END
+AggregationManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/rolap/agg/AggregationManager.java
+END
+AndPredicate.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/rolap/agg/AndPredicate.java
+END
+GroupingSetsList.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/rolap/agg/GroupingSetsList.java
+END
+SparseSegmentDataset.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/rolap/agg/SparseSegmentDataset.java
+END
+DenseSegmentDataset.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/rolap/agg/DenseSegmentDataset.java
+END
+Aggregation.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/rolap/agg/Aggregation.java
+END
+CellRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/rolap/agg/CellRequest.java
+END
+CountingAggregationManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/rolap/agg/CountingAggregationManager.java
+END
+SegmentLoader.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/rolap/agg/SegmentLoader.java
+END
+RangeColumnPredicate.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/rolap/agg/RangeColumnPredicate.java
+END
+ListPredicate.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/rolap/agg/ListPredicate.java
+END

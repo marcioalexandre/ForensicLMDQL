@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/LMDQL/!svn/ver/164/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/udf
+END
+NNearestValues.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/LMDQL/!svn/ver/130/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/udf/NNearestValues.java
+END
+InUdf.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/udf/InUdf.java
+END
+CurrentDateStringUdf.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/udf/CurrentDateStringUdf.java
+END
+NullValueUdf.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/udf/NullValueUdf.java
+END
+CurrentDateMemberUdf.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/udf/CurrentDateMemberUdf.java
+END
+VAnalysis.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/LMDQL/!svn/ver/73/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/udf/VAnalysis.java
+END
+ValUdf.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/udf/ValUdf.java
+END
+Separatrix.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/LMDQL/!svn/ver/125/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/udf/Separatrix.java
+END
+NNearestValuesPercentual.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/udf/NNearestValuesPercentual.java
+END
+InverseNormalUdf.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/udf/InverseNormalUdf.java
+END
+MatchesUdf.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/udf/MatchesUdf.java
+END
+Cross.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/LMDQL/!svn/ver/164/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/udf/Cross.java
+END
+HAnalysis.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/LMDQL/!svn/ver/133/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/udf/HAnalysis.java
+END
+CurrentDateMemberExactUdf.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/udf/CurrentDateMemberExactUdf.java
+END
+LastNonEmptyUdf.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/udf/LastNonEmptyUdf.java
+END

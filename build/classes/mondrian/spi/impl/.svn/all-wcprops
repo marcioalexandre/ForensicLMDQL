@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/spi/impl
+END
+CatalogLocatorImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/LMDQL/!svn/ver/16/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/spi/impl/CatalogLocatorImpl.java
+END
+DataSourceChangeListenerImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/spi/impl/DataSourceChangeListenerImpl.java
+END
+ServletContextCatalogLocator.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/spi/impl/ServletContextCatalogLocator.java
+END
+DataSourceChangeListenerImpl2.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/spi/impl/DataSourceChangeListenerImpl2.java
+END
+DataSourceChangeListenerImpl3.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/spi/impl/DataSourceChangeListenerImpl3.java
+END
+FilterDynamicSchemaProcessor.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/spi/impl/FilterDynamicSchemaProcessor.java
+END
+DataSourceChangeListenerImpl4.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/spi/impl/DataSourceChangeListenerImpl4.java
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/LMDQL/!svn/ver/16/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/spi/impl/package.html
+END

@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/LMDQL/!svn/ver/164/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/fmdql/servlet
+END
+RenderFMDQLHAnalysis.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/LMDQL/!svn/ver/164/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/fmdql/servlet/RenderFMDQLHAnalysis.java
+END
+GerenciadorRender.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/fmdql/servlet/GerenciadorRender.java
+END
+RenderFMDQL.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/LMDQL/!svn/ver/125/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/fmdql/servlet/RenderFMDQL.java
+END
+RenderFMDQLNNearestValues.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/LMDQL/!svn/ver/138/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/fmdql/servlet/RenderFMDQLNNearestValues.java
+END
+RenderFMDQLSeparatrix.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/fmdql/servlet/RenderFMDQLSeparatrix.java
+END
+RenderFMDQLNNearestValuesPercentual.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/LMDQL/!svn/ver/138/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/fmdql/servlet/RenderFMDQLNNearestValuesPercentual.java
+END
+IRenderFMDQL.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/LMDQL/!svn/ver/16/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/fmdql/servlet/IRenderFMDQL.java
+END
+RenderFMDQLVAnalysis.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/fmdql/servlet/RenderFMDQLVAnalysis.java
+END
+RenderFMDQLCross.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/LMDQL/!svn/ver/131/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/fmdql/servlet/RenderFMDQLCross.java
+END

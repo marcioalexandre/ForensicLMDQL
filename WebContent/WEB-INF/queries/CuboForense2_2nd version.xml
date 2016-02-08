@@ -1,0 +1,57 @@
+﻿<Schema name="Forense">
+
+<!-- dimensão do foodmart mondrian
+  
+  <Cube name="Store">
+  <Table name="store"/>
+
+  <Dimension name="Store Type">
+    <Hierarchy hasAll="true">
+      <Level name="Store Type" column="store_type" uniqueMembers="true"/>
+    </Hierarchy>
+  </Dimension>
+
+  <DimensionUsage name="Store" source="Store"/>
+
+  <Dimension name="Has coffee bar">
+    <Hierarchy hasAll="true">
+      <Level name="Has coffee bar" column="coffee_bar" uniqueMembers="true"
+          type="Boolean"/>
+    </Hierarchy>
+  </Dimension>
+
+  <Measure name="Store Sqft" column="store_sqft" aggregator="sum"
+      formatString="#,###"/>
+  <Measure name="Grocery Sqft" column="grocery_sqft" aggregator="sum"
+      formatString="#,###"/>
+
+</Cube>
+-->
+
+
+  
+  <Cube name="Cubo Forense" visible="true" cache="true" enabled="true">
+    <Table name="fatos" />
+
+      <Dimension visible="true" foreignKey="Elemento_idElemento" highCardinality="false" name="Elemento">
+      <Hierarchy name="Nome do Elemento" visible="true" hasAll="true" allMemberName="Todos os Elementos" primaryKey="idElemento" primaryKeyTable="elemento">
+        <Table name="elemento"/>
+          <Level name="Elemento" visible="true" table="elemento" column="nome" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never" />
+      </Hierarchy>
+    </Dimension>
+    
+    <Dimension visible="true" foreignKey="Empresa_idEmpresa" highCardinality="false" name="Empresa">
+      <Hierarchy name="Nome da Empresa" visible="true" hasAll="true" allMemberName="Todas as Empresas" primaryKey="idEmpresa" primaryKeyTable="empresa">
+        <Table name="empresa">
+        </Table>
+        <Level name="Empresa" visible="true" table="empresa" column="nome" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+      </Hierarchy>
+    </Dimension>
+    
+    <Measure name="Valor" column="valor" datatype="Numeric" aggregator="sum" visible="true" formatString="#.###,##"/>
+    
+  </Cube>
+  
+  
+</Schema>

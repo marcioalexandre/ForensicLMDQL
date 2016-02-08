@@ -1,0 +1,18 @@
+    <DataSource>
+        <!-- <DataSourceName>Provider=Mondrian;Locale=es_AR;DynamicSchemaProcessor=mondrian.i18n.LocalizingDynamicSchemaProcessor;DataSource=forense;</DataSourceName> -->
+		<DataSourceName>Provider=Mondrian;DataSource=forense;</DataSourceName> -->
+        <DataSourceDescription>Mondrian Forense Data Warehouse</DataSourceDescription>
+        <URL>http://localhost:8888/mondrian/xmla</URL>
+        <!--<DataSourceInfo>Provider=Mondrian;Jdbc=jdbc:mysql://localhost:3306/xbrl2.1;JdbcUser=marcio;JdbcPassword=Ma@1983;JdbcDrivers=com.mysql.jdbc.Driver;Catalog=/WEB-INF/queries/xbrl.xml</DataSourceInfo>  -->
+        <DataSourceInfo>Provider=Mondrian;Jdbc=jdbc:mysql://localhost:3306/producao;JdbcUser=marcio;JdbcPassword=Ma@1983;JdbcDrivers=com.mysql.jdbc.Driver;Catalog=/WEB-INF/queries/producao.xml</DataSourceInfo> 
+
+        <ProviderName>Mondrian</ProviderName>
+        <ProviderType>MDP</ProviderType>
+        <AuthenticationMode>Unauthenticated</AuthenticationMode>
+
+        <Catalogs>
+            <Catalog name="forense">
+                <Definition>/WEB-INF/queries/producao.xml</Definition>
+            </Catalog>
+        </Catalogs>
+    </DataSource>

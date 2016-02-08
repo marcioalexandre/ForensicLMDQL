@@ -1,0 +1,180 @@
+Using file fbr_instance.xml
+
+Arcs from fbr_instance.xml: 
+Exist arc between fbr:totalAtivo and footnote_29897646
+
+Arcs from fbr_Taxonomia.xsd: 
+
+Arcs from fbr_Taxonomia-presentation.xml: 
+Exist arc between fbr:circulante and fbr:caixaEBancos
+Exist arc between fbr:circulante and fbr:aplicacoesMercadoAberto
+Exist arc between fbr:circulante and fbr:titulosRendaFixa
+Exist arc between fbr:circulante and fbr:titulosRendaVariavel
+Exist arc between fbr:circulante and fbr:outrasAplicacoes
+Exist arc between fbr:circulante and fbr:creditosOpeSeguros10b
+Exist arc between fbr:circulante and fbr:jurosDividendosReceber12
+Exist arc between fbr:circulante and fbr:estoques
+Exist arc between fbr:circulante and fbr:titulosCreditos10c
+Exist arc between fbr:circulante and fbr:creditosTributarios3e10f
+Exist arc between fbr:circulante and fbr:despesasAntecipadas
+Exist arc between fbr:circulante and fbr:despesasComercializacaoDiferidas10d
+Exist arc between fbr:circulante and fbr:totalCirculante
+Exist arc between fbr:naoCirculanteRealLongoPrazo and fbr:depositosJudiciais
+Exist arc between fbr:naoCirculanteRealLongoPrazo and fbr:titulosDeRendaFixa
+Exist arc between fbr:naoCirculanteRealLongoPrazo and fbr:creditosTributarios
+Exist arc between fbr:naoCirculanteRealLongoPrazo and fbr:contasCorrentesEmpresasLigadas
+Exist arc between fbr:naoCirculanteRealLongoPrazo and fbr:outrasContas
+Exist arc between fbr:naoCirculanteRealLongoPrazo and fbr:totalRealizavelLongoPrazo
+Exist arc between fbr:investimentos and fbr:participacoesEmControladas
+Exist arc between fbr:investimentos and fbr:outrosInvestimentos
+Exist arc between fbr:investimentos and fbr:imoveisDestinadosRenda
+Exist arc between fbr:investimentos and fbr:somaInvestimentos
+Exist arc between fbr:permanente and fbr:imobilizado
+Exist arc between fbr:permanente and fbr:diferido
+Exist arc between fbr:permanente and fbr:totalPermanente
+Exist arc between fbr:ativo and fbr:totalNaoCirculante
+Exist arc between fbr:ativo and fbr:totalAtivo
+Exist arc between fbr:circulantePL and fbr:debitosOpSeguros
+Exist arc between fbr:circulantePL and fbr:obrigacoesAPagar
+Exist arc between fbr:circulantePL and fbr:impostosContribuicoesSociaisARecolher
+Exist arc between fbr:circulantePL and fbr:provisoesTrabalhistas
+Exist arc between fbr:circulantePL and fbr:provisoesParaTributos
+Exist arc between fbr:circulantePL and fbr:emprestimosEFinanciamentos
+Exist arc between fbr:circulantePL and fbr:depositosDeTerceiros
+Exist arc between fbr:circulantePL and fbr:provisoesTecnicas
+Exist arc between fbr:circulantePL and fbr:totalDoCirculante
+Exist arc between fbr:naoCirculanteExigivelLP and fbr:emprestimosFinanciamentos
+Exist arc between fbr:naoCirculanteExigivelLP and fbr:provisaoTributosDiferidos
+Exist arc between fbr:naoCirculanteExigivelLP and fbr:contingenciasFiscais
+Exist arc between fbr:naoCirculanteExigivelLP and fbr:obrigacoesAPagarPPL
+Exist arc between fbr:naoCirculanteExigivelLP and fbr:contasCorrentesComEmpresasLigadas
+Exist arc between fbr:naoCirculanteExigivelLP and fbr:totalNaoCirculantePPL
+Exist arc between fbr:passivoEPatrimonioLiquido and fbr:oarticipacaoAcionistasNaoControladores
+Exist arc between fbr:oarticipacaoAcionistasNaoControladores and fbr:patrimonioLiquidoNota8
+Exist arc between fbr:patrimonioLiquidoNota8 and fbr:capitalSocial
+Exist arc between fbr:patrimonioLiquidoNota8 and fbr:reservasReavaliacao
+Exist arc between fbr:patrimonioLiquidoNota8 and fbr:reservasLucros
+Exist arc between fbr:patrimonioLiquidoNota8 and fbr:totalPLPPL
+Exist arc between fbr:passivoEPatrimonioLiquido and fbr:totalPPL
+
+Arcs from fbr_Taxonomia-calculation.xml: 
+Exist arc between fbr:somaInvestimentos and fbr:participacoesEmControladas
+Exist arc between fbr:somaInvestimentos and fbr:outrosInvestimentos
+Exist arc between fbr:totalRealizavelLongoPrazo and fbr:depositosJudiciais
+Exist arc between fbr:totalRealizavelLongoPrazo and fbr:titulosDeRendaFixa
+Exist arc between fbr:totalRealizavelLongoPrazo and fbr:creditosTributarios
+Exist arc between fbr:totalRealizavelLongoPrazo and fbr:contasCorrentesEmpresasLigadas
+Exist arc between fbr:totalRealizavelLongoPrazo and fbr:outrasContas
+Exist arc between fbr:totalPermanente and fbr:imoveisDestinadosRenda
+Exist arc between fbr:totalPermanente and fbr:participacoesEmControladas
+Exist arc between fbr:totalPermanente and fbr:outrosInvestimentos
+Exist arc between fbr:totalPermanente and fbr:imobilizado
+Exist arc between fbr:totalPermanente and fbr:diferido
+Exist arc between fbr:totalPLPPL and fbr:reservasReavaliacao
+Exist arc between fbr:totalPLPPL and fbr:reservasLucros
+Exist arc between fbr:totalPLPPL and fbr:capitalSocial
+Exist arc between fbr:totalNaoCirculantePPL and fbr:emprestimosFinanciamentos
+Exist arc between fbr:totalNaoCirculantePPL and fbr:provisaoTributosDiferidos
+Exist arc between fbr:totalNaoCirculantePPL and fbr:contingenciasFiscais
+Exist arc between fbr:totalNaoCirculantePPL and fbr:obrigacoesAPagarPPL
+Exist arc between fbr:totalNaoCirculantePPL and fbr:contasCorrentesComEmpresasLigadas
+Exist arc between fbr:totalDoCirculante and fbr:debitosOpSeguros
+Exist arc between fbr:totalDoCirculante and fbr:obrigacoesAPagar
+Exist arc between fbr:totalDoCirculante and fbr:impostosContribuicoesSociaisARecolher
+Exist arc between fbr:totalDoCirculante and fbr:provisoesTrabalhistas
+Exist arc between fbr:totalDoCirculante and fbr:provisoesParaTributos
+Exist arc between fbr:totalDoCirculante and fbr:emprestimosEFinanciamentos
+Exist arc between fbr:totalDoCirculante and fbr:depositosDeTerceiros
+Exist arc between fbr:totalDoCirculante and fbr:provisoesTecnicas
+Exist arc between fbr:totalNaoCirculante and fbr:depositosJudiciais
+Exist arc between fbr:totalNaoCirculante and fbr:titulosDeRendaFixa
+Exist arc between fbr:totalNaoCirculante and fbr:creditosTributarios
+Exist arc between fbr:totalNaoCirculante and fbr:contasCorrentesEmpresasLigadas
+Exist arc between fbr:totalNaoCirculante and fbr:outrasContas
+Exist arc between fbr:totalNaoCirculante and fbr:imoveisDestinadosRenda
+Exist arc between fbr:totalNaoCirculante and fbr:participacoesEmControladas
+Exist arc between fbr:totalNaoCirculante and fbr:outrosInvestimentos
+Exist arc between fbr:totalNaoCirculante and fbr:imobilizado
+Exist arc between fbr:totalNaoCirculante and fbr:diferido
+Exist arc between fbr:totalCirculante and fbr:caixaEBancos
+Exist arc between fbr:totalCirculante and fbr:aplicacoesMercadoAberto
+Exist arc between fbr:totalCirculante and fbr:titulosRendaVariavel
+Exist arc between fbr:totalCirculante and fbr:outrasAplicacoes
+Exist arc between fbr:totalCirculante and fbr:creditosOpeSeguros10b
+Exist arc between fbr:totalCirculante and fbr:jurosDividendosReceber12
+Exist arc between fbr:totalCirculante and fbr:estoques
+Exist arc between fbr:totalCirculante and fbr:titulosCreditos10c
+Exist arc between fbr:totalCirculante and fbr:creditosTributarios3e10f
+Exist arc between fbr:totalCirculante and fbr:despesasAntecipadas
+Exist arc between fbr:totalCirculante and fbr:despesasComercializacaoDiferidas10d
+Exist arc between fbr:totalCirculante and fbr:titulosRendaFixa
+Exist arc between fbr:totalPPL and fbr:totalPLPPL
+Exist arc between fbr:totalPPL and fbr:totalNaoCirculantePPL
+Exist arc between fbr:totalPPL and fbr:totalDoCirculante
+Exist arc between fbr:totalPPL and fbr:oarticipacaoAcionistasNaoControladores
+Exist arc between fbr:totalAtivo and fbr:totalNaoCirculante
+Exist arc between fbr:totalAtivo and fbr:totalCirculante
+
+Arcs from fbr_Taxonomia-definition.xml: 
+Exist arc between fbr:somaInvestimentos and fbr:outrosInvestimentos
+Exist arc between fbr:somaInvestimentos and fbr:participacoesEmControladas
+Exist arc between fbr:totalAtivo and fbr:totalCirculante
+Exist arc between fbr:totalAtivo and fbr:totalNaoCirculante
+Exist arc between fbr:totalNaoCirculante and fbr:totalRealizavelLongoPrazo
+Exist arc between fbr:totalNaoCirculante and fbr:totalPermanente
+Exist arc between fbr:totalAtivo and fbr:totalPPL
+
+Arcs from fbr_Taxonomia-label.xml: 
+Exist arc between fbr:caixaEBancos and label_caixaEBancos
+Exist arc between fbr:aplicacoesMercadoAberto and label_aplicacoesMercadoAberto
+Exist arc between fbr:titulosRendaFixa and label_titulosRendaFixa
+Exist arc between fbr:titulosRendaVariavel and label_titulosRendaVariavel
+Exist arc between fbr:outrasAplicacoes and label_outrasAplicacoes
+Exist arc between fbr:creditosOpeSeguros10b and label_creditosOpeSeguros10b
+Exist arc between fbr:jurosDividendosReceber12 and label_jurosDividendosReceber12
+Exist arc between fbr:estoques and label_estoques
+Exist arc between fbr:titulosCreditos10c and label_titulosCreditos10c
+Exist arc between fbr:creditosTributarios3e10f and label_creditosTributarios3e10f
+Exist arc between fbr:despesasAntecipadas and label_despesasAntecipadas
+Exist arc between fbr:despesasComercializacaoDiferidas10d and label_despesasComercializacaoDiferidas10d
+Exist arc between fbr:totalCirculante and label_totalCirculante
+Exist arc between fbr:depositosJudiciais and label_depositosJudiciais
+Exist arc between fbr:titulosDeRendaFixa and label_titulosDeRendaFixa
+Exist arc between fbr:creditosTributarios and label_creditosTributarios
+Exist arc between fbr:contasCorrentesEmpresasLigadas and label_contasCorrentesEmpresasLigadas
+Exist arc between fbr:outrasContas and label_outrasContas
+Exist arc between fbr:totalRealizavelLongoPrazo and label_totalRealizavelLongoPrazo
+Exist arc between fbr:participacoesEmControladas and label_participacoesEmControladas
+Exist arc between fbr:outrosInvestimentos and label_outrosInvestimentos
+Exist arc between fbr:imoveisDestinadosRenda and label_imoveisDestinadosRenda
+Exist arc between fbr:imobilizado and label_imobilizado
+Exist arc between fbr:diferido and label_diferido
+Exist arc between fbr:totalPermanente and label_totalPermanente
+Exist arc between fbr:totalNaoCirculante and label_totalNaoCirculante
+Exist arc between fbr:totalAtivo and label_totalAtivo
+Exist arc between fbr:debitosOpSeguros and label_debitosOpSeguros
+Exist arc between fbr:obrigacoesAPagar and label_obrigacoesAPagar
+Exist arc between fbr:impostosContribuicoesSociaisARecolher and label_impostosContribuicoesSociaisARecolher
+Exist arc between fbr:provisoesTrabalhistas and label_provisoesTrabalhistas
+Exist arc between fbr:provisoesParaTributos and label_provisoesParaTributos
+Exist arc between fbr:emprestimosEFinanciamentos and label_emprestimosEFinanciamentos
+Exist arc between fbr:depositosDeTerceiros and label_depositosDeTerceiros
+Exist arc between fbr:provisoesTecnicas and label_provisoesTecnicas
+Exist arc between fbr:totalDoCirculante and label_totalDoCirculante
+Exist arc between fbr:emprestimosFinanciamentos and label_emprestimosFinanciamentos
+Exist arc between fbr:provisaoTributosDiferidos and label_provisaoTributosDiferidos
+Exist arc between fbr:contingenciasFiscais and label_contingenciasFiscais
+Exist arc between fbr:obrigacoesAPagarPPL and label_obrigacoesAPagarPPL
+Exist arc between fbr:contasCorrentesComEmpresasLigadas and label_contasCorrentesComEmpresasLigadas
+Exist arc between fbr:totalNaoCirculantePPL and label_totalNaoCirculantePPL
+Exist arc between fbr:oarticipacaoAcionistasNaoControladores and label_oarticipacaoAcionistasNaoControladores
+Exist arc between fbr:capitalSocial and label_capitalSocial
+Exist arc between fbr:reservasReavaliacao and label_reservasReavaliacao
+Exist arc between fbr:reservasLucros and label_reservasLucros
+Exist arc between fbr:totalPLPPL and label_totalPLPPL
+Exist arc between fbr:totalPPL and label_totalPPL
+Exist arc between fbr:somaInvestimentos and label_somaInvestimentos
+
+Arcs from fbr_Taxonomia-reference.xml: 
+
+

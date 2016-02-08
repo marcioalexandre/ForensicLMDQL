@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/xmla
+END
+XmlaHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/xmla/XmlaHandler.java
+END
+XmlaUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/xmla/XmlaUtil.java
+END
+DataSourcesConfig.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/LMDQL/!svn/ver/16/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/xmla/DataSourcesConfig.java
+END
+XmlaServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/xmla/XmlaServlet.java
+END
+XmlaRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/xmla/XmlaRequest.java
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/LMDQL/!svn/ver/16/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/xmla/package.html
+END
+XmlaException.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/LMDQL/!svn/ver/16/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/xmla/XmlaException.java
+END
+XmlaResponse.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/LMDQL/!svn/ver/16/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/xmla/XmlaResponse.java
+END
+DataSourcesConfig.xml
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/LMDQL/!svn/ver/16/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/xmla/DataSourcesConfig.xml
+END
+Rowset.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/xmla/Rowset.java
+END
+Enumeration.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/xmla/Enumeration.java
+END
+XmlaRequestCallback.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/LMDQL/!svn/ver/16/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/xmla/XmlaRequestCallback.java
+END
+SaxWriter.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/LMDQL/!svn/ver/16/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/xmla/SaxWriter.java
+END
+RowsetDefinition.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/xmla/RowsetDefinition.java
+END
+PropertyDefinition.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/xmla/PropertyDefinition.java
+END
+datasourcesconfig.dtd
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/LMDQL/!svn/ver/16/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/xmla/datasourcesconfig.dtd
+END
+XmlaConstants.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/LMDQL/!svn/ver/16/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/xmla/XmlaConstants.java
+END

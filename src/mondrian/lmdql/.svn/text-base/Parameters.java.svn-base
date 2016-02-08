@@ -1,0 +1,25 @@
+package mondrian.lmdql;
+
+import java.util.ArrayList;
+
+import mondrian.olap.Util;
+
+import org.w3c.dom.Document;
+
+import com.desenvolvatec.xpathplus.framework.Arc;
+
+public class Parameters {
+	
+	public static int databaseType = Database.RELATIONAL; // default, pode mudar
+
+	public static String xmlMdxFileContent; // armazena o arquivo texto originado pelo xml de configuração do MDX #Werther
+	public static Util.PropertyList mdxConnProperties; // armazena as propriedades da conexão MDX para fácil acesso
+	public static String pathServer; // armazena o path do servidor, onde quer que ele rode
+	public static String xmlSQL2XQueryContent; // armazena o arquivo texto (conteúdo) do arquivo de configuração sql2xquery
+	public static String xmlXPathPlusFileName; // armazena o nome do arquivo de configuração xpathplus
+	public static Document xmlXPathPlusFileDoc; // armazena o conteúdo (Document) do arquivo de configuração xpathplus
+	public static ArrayList<Arc> labelArcs; // armazena os arcos existentes no label linkbase
+	public static ArrayList<Arc> opDefArcs; // armazena os arcos referentes ao operator definition
+	public static String xmlOpDefContent; // armazena o arquivo texto (conteúdo) do linkbase de definição do operator definition
+	
+}

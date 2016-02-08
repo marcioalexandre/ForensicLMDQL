@@ -1,0 +1,131 @@
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/gui
+END
+LanguageChangedEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/LMDQL/!svn/ver/16/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/gui/LanguageChangedEvent.java
+END
+SchemaTreeModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/gui/SchemaTreeModel.java
+END
+ListRenderer.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/gui/ListRenderer.java
+END
+JDBCMetaData.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/gui/JDBCMetaData.java
+END
+JDBCTreeModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/gui/JDBCTreeModel.java
+END
+LanguageChangedListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/LMDQL/!svn/ver/16/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/gui/LanguageChangedListener.java
+END
+SchemaTreeCellRenderer.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/LMDQL/!svn/ver/16/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/gui/SchemaTreeCellRenderer.java
+END
+WorkbenchMenubarPlugin.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/LMDQL/!svn/ver/16/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/gui/WorkbenchMenubarPlugin.java
+END
+SchemaPropertyCellEditor.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/gui/SchemaPropertyCellEditor.java
+END
+PropertyTableModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/gui/PropertyTableModel.java
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/LMDQL/!svn/ver/16/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/gui/package.html
+END
+I18n.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/gui/I18n.java
+END
+PreferencesDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/gui/PreferencesDialog.java
+END
+SchemaExplorer.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/gui/SchemaExplorer.java
+END
+Workbench.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/gui/Workbench.java
+END
+JDBCExplorer.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/LMDQL/!svn/ver/16/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/gui/JDBCExplorer.java
+END
+QueryPanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/gui/QueryPanel.java
+END
+SchemaTreeCellEditor.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/gui/SchemaTreeCellEditor.java
+END
+MondrianGuiDef.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/gui/MondrianGuiDef.java
+END
+SchemaPropertyCellRenderer.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/gui/SchemaPropertyCellRenderer.java
+END
+JTreeUpdater.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/gui/JTreeUpdater.java
+END

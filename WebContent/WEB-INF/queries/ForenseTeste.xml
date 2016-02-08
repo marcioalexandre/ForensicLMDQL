@@ -1,0 +1,38 @@
+<Schema name="forenseTeste">
+  <Cube name="Forense" visible="true" cache="true" enabled="true">
+    <Table name="fatos" schema="forenseTeste">
+    </Table>
+    <Dimension type="StandardDimension" visible="true" foreignKey="idEmpresa" highCardinality="false" name="Empresa">
+      <Hierarchy name="Empresa" visible="true" hasAll="true" allMemberName="Todas as Empresas" primaryKey="Empresa_idEmpresa" primaryKeyTable="empresa">
+        <Table name="empresa" schema="forenseTeste">
+        </Table>
+        <Level name="Empresa" visible="true" table="empresa" column="nome" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+      </Hierarchy>
+    </Dimension>
+    <Dimension type="TimeDimension" visible="true" foreignKey="idTempo" highCardinality="false" name="Tempo">
+      <Hierarchy name="Tempo" visible="true" hasAll="true" allMemberName="Todos os documentos" primaryKey="tempo_idTempo" primaryKeyTable="tempo">
+        <Table name="tempo" schema="forenseTeste">
+        </Table>
+        <Level name="Dia" visible="true" table="tempo" column="dia" type="Integer" uniqueMembers="false" levelType="TimeDays" hideMemberIf="Never">
+        </Level>
+        <Level name="mes" visible="true" table="tempo" column="mes" type="Integer" uniqueMembers="false" levelType="TimeMonths" hideMemberIf="Never">
+        </Level>
+        <Level name="ano" visible="true" table="tempo" column="ano" type="Integer" uniqueMembers="false" levelType="TimeYears" hideMemberIf="Never">
+        </Level>
+      </Hierarchy>
+    </Dimension>
+    <Dimension type="StandardDimension" visible="true" foreignKey="idElemento" highCardinality="false" name="Elemento">
+      <Hierarchy name="Elemento" visible="true" hasAll="true" allMemberName="Todos os Elementos" primaryKey="Elemento_idElemento" primaryKeyTable="elemento">
+        <Table name="elemento" schema="forenseTeste">
+        </Table>
+        <Level name="Elemento" visible="true" table="elemento" column="nome" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+      </Hierarchy>
+    </Dimension>
+    <Measure name="valor" column="valor" datatype="Numeric" aggregator="sum" visible="true">
+    </Measure>
+  </Cube>
+  <UserDefinedFunction name="AdicionaPorcentagem" className="marcio.forense.AdicionaPorcentagem">
+  </UserDefinedFunction>
+</Schema>

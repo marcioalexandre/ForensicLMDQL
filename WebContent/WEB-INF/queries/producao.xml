@@ -1,0 +1,52 @@
+<Schema name="New Schema1">
+  <Cube name="XbrlDataMart" visible="true" cache="true" enabled="true">
+    <Table name="relatorio">
+    </Table>
+    <Dimension type="StandardDimension" visible="true" foreignKey="Entidade_id" highCardinality="false" name="Entity">
+      <Hierarchy name="Entity" visible="true" hasAll="true" allMemberName="all" primaryKey="id" primaryKeyTable="entidade">
+        <Table name="entidade">
+        </Table>
+        <Level name="Entity" visible="true" table="entidade" column="nome" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+      </Hierarchy>
+    </Dimension>
+    <Dimension type="StandardDimension" visible="true" foreignKey="Tempo_id" highCardinality="false" name="Time">
+      <Hierarchy name="Time" visible="true" hasAll="true" allMemberName="all" primaryKey="id" primaryKeyTable="tempo">
+        <Table name="tempo">
+        </Table>
+        <Level name="Ano" visible="true" table="tempo" column="ano" type="Integer" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+        <Level name="mes" visible="true" table="tempo" column="mes" type="Integer" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+        <Level name="dia" visible="true" table="tempo" column="dia" type="Integer" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+      </Hierarchy>
+    </Dimension>
+    <Dimension type="StandardDimension" visible="true" foreignKey="Elemento_id" highCardinality="false" name="Element">
+      <Hierarchy name="Element" visible="true" hasAll="true" allMemberName="all" primaryKey="id" primaryKeyTable="elemento">
+        <Table name="elemento">
+        </Table>
+        <Level name="Name" visible="true" table="elemento" column="nome" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+      </Hierarchy>
+    </Dimension>
+    <Dimension type="StandardDimension" visible="true" foreignKey="Documento_id" highCardinality="false" name="Document">
+      <Hierarchy name="Document" visible="true" hasAll="true" allMemberName="all" primaryKey="id" primaryKeyTable="documento">
+        <Table name="documento">
+        </Table>
+        <Level name="Document" visible="true" table="documento" column="nome" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+      </Hierarchy>
+    </Dimension>
+    <Measure name="Value" column="valor" aggregator="sum" visible="true">
+    </Measure>
+  </Cube>
+  <UserDefinedFunction name="VAnalysis" className="mondrian.udf.VAnalysis" />  
+  <UserDefinedFunction name="Cross" className="mondrian.udf.Cross" />  
+  <UserDefinedFunction name="HAnalysis" className="mondrian.udf.HAnalysis" />  
+  <UserDefinedFunction name="Separatrix" className="mondrian.udf.Separatrix" />  
+  <UserDefinedFunction name="FirstDigit" className="mondrian.udf.FirstDigit" />  
+  <UserDefinedFunction name="GriConformity" className="mondrian.udf.GriConformity" />  
+  <UserDefinedFunction name="GriGaple" className="mondrian.udf.GriGaple" />  
+  <UserDefinedFunction name="GriGee" className="mondrian.udf.GriGee" />  
+</Schema>

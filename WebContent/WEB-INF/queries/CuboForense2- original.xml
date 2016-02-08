@@ -1,0 +1,26 @@
+<Schema name="Forense">
+  <Cube name="Cubo Forense" visible="true" cache="true" enabled="true">
+    <Table name="fatos">
+    </Table>
+    <Dimension type="StandardDimension" visible="true" foreignKey="Elemento_idElemento" highCardinality="false" name="Elemento">
+      <Hierarchy name="Nome do Elemento" visible="true" hasAll="true" allMemberName="Todos os Elementos" primaryKey="idElemento" primaryKeyTable="elemento">
+        <Table name="elemento">
+        </Table>
+        <Level name="Elemento" visible="true" table="elemento" column="nome" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+      </Hierarchy>
+    </Dimension>
+    <Dimension type="StandardDimension" visible="true" foreignKey="Empresa_idEmpresa" highCardinality="false" name="Empresa">
+      <Hierarchy name="Nome da Empresa" visible="true" hasAll="true" allMemberName="Todas as Empresas" primaryKey="idEmpresa" primaryKeyTable="empresa">
+        <Table name="empresa">
+        </Table>
+        <Level name="Empresa" visible="true" table="empresa" column="nome" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+      </Hierarchy>
+    </Dimension>
+    <Measure name="Valor" column="valor" datatype="Numeric" aggregator="sum" visible="true">
+    </Measure>
+  </Cube>
+  <UserDefinedFunction name="AdicionaPorcentagem" className="marcio.forense.AdicionaPorcentagem">
+  </UserDefinedFunction>
+</Schema>

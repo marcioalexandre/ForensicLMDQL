@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xpathplus>
+    <startpoint expression="xquery:db2-fn:xmlcolumn('LINKBASE.TAXONOMIA.INFO')/***" filter="no" print="no" base="taxonomy" />
+    <instance>
+        <xmldb name="DB2">
+            <driver>com.ibm.db2.jcc.DB2Driver</driver>
+            <url>jdbc:db2:foodmart</url>
+            <user>foodmart</user>
+            <password>foodmart</password>
+        </xmldb>
+    </instance>  
+    <taxonomy>
+        <xmldb name="DB2">
+            <driver>com.ibm.db2.jcc.DB2Driver</driver>
+            <url>jdbc:db2:fmlnkbse</url>
+            <user>foodmart</user>
+            <password>foodmart</password>
+        </xmldb>
+    </taxonomy>
+    <operatordefinition expression="xquery:db2-fn:xmlcolumn('FOODMART.OPERATORDEFINITION.INFO')/***">
+        <xmldb name="DB2">
+            <driver>com.ibm.db2.jcc.DB2Driver</driver>
+            <url>jdbc:db2:foodmart</url>
+            <user>foodmart</user>
+            <password>foodmart</password>
+        </xmldb>
+    </operatordefinition>
+</xpathplus>

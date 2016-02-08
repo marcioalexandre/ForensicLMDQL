@@ -1,0 +1,54 @@
+<Schema name="New Schema1">
+  <Cube name="XBRL" visible="true" cache="true" enabled="true">
+    <Table name="relatorioelemento">
+    </Table>
+    <Dimension type="StandardDimension" visible="true" foreignKey="id" highCardinality="false" name="Entidade">
+      <Hierarchy name="Entidade" visible="false" hasAll="true" allMemberName="Todas as Empresas" primaryKey="id" primaryKeyTable="entidade">
+        <Table name="entidade">
+        </Table>
+        <Level name="Nome" visible="true" table="entidade" column="nome" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+      </Hierarchy>
+    </Dimension>
+    <Dimension type="TimeDimension" visible="true" foreignKey="Periodo_id" highCardinality="false" name="Tempo">
+      <Hierarchy name="Tempo" visible="true" hasAll="true" allMemberName="Todos os Tempos" primaryKey="id" primaryKeyTable="periodo">
+        <Table name="periodo">
+        </Table>
+        <Level name="Dia" visible="true" table="periodo" column="startDate" type="Date" uniqueMembers="false" levelType="TimeDays" hideMemberIf="Never">
+        </Level>
+        <Level name="Mes" visible="true" table="periodo" column="startDate" type="Date" uniqueMembers="false" levelType="TimeMonths" hideMemberIf="Never">
+        </Level>
+        <Level name="Ano" visible="true" table="periodo" column="startDate" type="Date" uniqueMembers="false" levelType="TimeYears" hideMemberIf="Never">
+        </Level>
+      </Hierarchy>
+    </Dimension>
+    <Dimension type="StandardDimension" visible="true" foreignKey="Elemento_id" highCardinality="false" name="Elemento">
+      <Hierarchy name="Elemento" visible="true" hasAll="true" allMemberName="Todos os Elementos" primaryKey="id" primaryKeyTable="elemento">
+        <Table name="elemento">
+        </Table>
+        <Level name="Nome" visible="true" table="elemento" column="nome" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+      </Hierarchy>
+    </Dimension>
+    <Dimension type="StandardDimension" visible="true" foreignKey="Relatorio_id" highCardinality="false" name="Documento">
+      <Hierarchy name="Documento" visible="true" hasAll="true" allMemberName="Todos os Documentos" primaryKey="id">
+        <Table name="relatorio">
+        </Table>
+        <Level name="Nome" visible="true" column="nome" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+      </Hierarchy>
+    </Dimension>
+    <Measure name="valor" column="valor" datatype="Numeric" aggregator="sum" visible="true">
+    </Measure>
+  </Cube>
+  <UserDefinedFunction name="FirstDigit2" className="marcio.forense.FirstDigit2">
+  </UserDefinedFunction>
+  <UserDefinedFunction name="EmpiricalRule" className="marcio.forense.EmpiricalRule">
+  </UserDefinedFunction>
+  <UserDefinedFunction name="ZTest" className="marcio.forense.ZTest">
+  </UserDefinedFunction>
+  <UserDefinedFunction name="ChiSquaredTest" className="marcio.forense.ChiSquaredTest">
+  </UserDefinedFunction>
+  <UserDefinedFunction name="AdicionaPorcentagem" className="marcio.forense.AdicionaPorcentagem">
+  </UserDefinedFunction>
+</Schema>

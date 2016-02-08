@@ -1,0 +1,155 @@
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/calc/impl
+END
+ValueCalc.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/calc/impl/ValueCalc.java
+END
+GenericCalc.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/calc/impl/GenericCalc.java
+END
+AbstractTupleCalc.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/calc/impl/AbstractTupleCalc.java
+END
+DimensionCurrentMemberCalc.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/calc/impl/DimensionCurrentMemberCalc.java
+END
+AbstractDateTimeCalc.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/calc/impl/AbstractDateTimeCalc.java
+END
+AbstractIntegerCalc.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/calc/impl/AbstractIntegerCalc.java
+END
+AbstractVoidCalc.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/calc/impl/AbstractVoidCalc.java
+END
+TupleValueCalc.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/calc/impl/TupleValueCalc.java
+END
+AbstractIterCalc.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/calc/impl/AbstractIterCalc.java
+END
+DelegatingExpCompiler.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/calc/impl/DelegatingExpCompiler.java
+END
+AbstractExpCompiler.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/calc/impl/AbstractExpCompiler.java
+END
+ConstantCalc.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/calc/impl/ConstantCalc.java
+END
+AbstractStringCalc.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/calc/impl/AbstractStringCalc.java
+END
+AbstractLevelCalc.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/calc/impl/AbstractLevelCalc.java
+END
+AbstractMemberCalc.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/calc/impl/AbstractMemberCalc.java
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/LMDQL/!svn/ver/16/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/calc/impl/package.html
+END
+AbstractDoubleCalc.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/calc/impl/AbstractDoubleCalc.java
+END
+AbstractListCalc.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/calc/impl/AbstractListCalc.java
+END
+AbstractHierarchyCalc.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/calc/impl/AbstractHierarchyCalc.java
+END
+AbstractCalc.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/calc/impl/AbstractCalc.java
+END
+AbstractBooleanCalc.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/calc/impl/AbstractBooleanCalc.java
+END
+CacheCalc.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/calc/impl/CacheCalc.java
+END
+MemberValueCalc.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/LMDQL/!svn/ver/16/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/calc/impl/MemberValueCalc.java
+END
+AbstractDimensionCalc.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/calc/impl/AbstractDimensionCalc.java
+END
+BetterExpCompiler.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/calc/impl/BetterExpCompiler.java
+END

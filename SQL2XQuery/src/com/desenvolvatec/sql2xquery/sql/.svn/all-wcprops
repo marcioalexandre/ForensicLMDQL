@@ -1,0 +1,113 @@
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/LMDQL/!svn/ver/51/LMDQL/Codifica%C3%A7%C3%A3o/jdev/SQL2XQuery/src/com/desenvolvatec/sql2xquery/sql
+END
+ConditItem.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/LMDQL/!svn/ver/23/LMDQL/Codifica%C3%A7%C3%A3o/jdev/SQL2XQuery/src/com/desenvolvatec/sql2xquery/sql/ConditItem.java
+END
+FromClause.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/LMDQL/!svn/ver/23/LMDQL/Codifica%C3%A7%C3%A3o/jdev/SQL2XQuery/src/com/desenvolvatec/sql2xquery/sql/FromClause.java
+END
+OrderByClause.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/LMDQL/!svn/ver/23/LMDQL/Codifica%C3%A7%C3%A3o/jdev/SQL2XQuery/src/com/desenvolvatec/sql2xquery/sql/OrderByClause.java
+END
+FunctionItem.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/LMDQL/!svn/ver/24/LMDQL/Codifica%C3%A7%C3%A3o/jdev/SQL2XQuery/src/com/desenvolvatec/sql2xquery/sql/FunctionItem.java
+END
+WhereClause.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/LMDQL/!svn/ver/33/LMDQL/Codifica%C3%A7%C3%A3o/jdev/SQL2XQuery/src/com/desenvolvatec/sql2xquery/sql/WhereClause.java
+END
+BetweenComp.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/LMDQL/!svn/ver/23/LMDQL/Codifica%C3%A7%C3%A3o/jdev/SQL2XQuery/src/com/desenvolvatec/sql2xquery/sql/BetweenComp.java
+END
+HavingClause.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/LMDQL/!svn/ver/33/LMDQL/Codifica%C3%A7%C3%A3o/jdev/SQL2XQuery/src/com/desenvolvatec/sql2xquery/sql/HavingClause.java
+END
+SelectClause.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/LMDQL/!svn/ver/24/LMDQL/Codifica%C3%A7%C3%A3o/jdev/SQL2XQuery/src/com/desenvolvatec/sql2xquery/sql/SelectClause.java
+END
+ColumnItem.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/LMDQL/!svn/ver/24/LMDQL/Codifica%C3%A7%C3%A3o/jdev/SQL2XQuery/src/com/desenvolvatec/sql2xquery/sql/ColumnItem.java
+END
+GroupByClause.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/LMDQL/!svn/ver/23/LMDQL/Codifica%C3%A7%C3%A3o/jdev/SQL2XQuery/src/com/desenvolvatec/sql2xquery/sql/GroupByClause.java
+END
+TableRef.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/LMDQL/!svn/ver/23/LMDQL/Codifica%C3%A7%C3%A3o/jdev/SQL2XQuery/src/com/desenvolvatec/sql2xquery/sql/TableRef.java
+END
+SQLQuery.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/LMDQL/!svn/ver/38/LMDQL/Codifica%C3%A7%C3%A3o/jdev/SQL2XQuery/src/com/desenvolvatec/sql2xquery/sql/SQLQuery.java
+END
+IsNullComp.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/LMDQL/!svn/ver/23/LMDQL/Codifica%C3%A7%C3%A3o/jdev/SQL2XQuery/src/com/desenvolvatec/sql2xquery/sql/IsNullComp.java
+END
+InComp.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/LMDQL/!svn/ver/20/LMDQL/Codifica%C3%A7%C3%A3o/jdev/SQL2XQuery/src/com/desenvolvatec/sql2xquery/sql/InComp.java
+END
+RelatComp.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/LMDQL/!svn/ver/23/LMDQL/Codifica%C3%A7%C3%A3o/jdev/SQL2XQuery/src/com/desenvolvatec/sql2xquery/sql/RelatComp.java
+END
+SelectStmt.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/LMDQL/!svn/ver/51/LMDQL/Codifica%C3%A7%C3%A3o/jdev/SQL2XQuery/src/com/desenvolvatec/sql2xquery/sql/SelectStmt.java
+END
+ColumnRef.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/LMDQL/!svn/ver/24/LMDQL/Codifica%C3%A7%C3%A3o/jdev/SQL2XQuery/src/com/desenvolvatec/sql2xquery/sql/ColumnRef.java
+END
+ConditItemList.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/LMDQL/!svn/ver/49/LMDQL/Codifica%C3%A7%C3%A3o/jdev/SQL2XQuery/src/com/desenvolvatec/sql2xquery/sql/ConditItemList.java
+END

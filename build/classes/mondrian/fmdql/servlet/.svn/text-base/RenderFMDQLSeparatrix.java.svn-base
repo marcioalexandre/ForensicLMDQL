@@ -1,0 +1,159 @@
+package mondrian.fmdql.servlet;
+
+import java.text.DecimalFormat;
+import java.text.NumberFormat;
+import java.util.ArrayList;
+import java.util.List;
+
+import mondrian.olap.Cell;
+import mondrian.olap.Member;
+import mondrian.olap.Position;
+import mondrian.udf.Separatrix;
+
+public class RenderFMDQLSeparatrix extends RenderFMDQL implements IRenderFMDQL{
+	
+	private List<Double> indicesPadrao;
+	
+	@Override
+	public int quantidadeDeColunasExtras() {				
+		List<Double> valores = new ArrayList<Double>();
+		 
+		 if(this.getRows() != null) {
+		    
+		 for (int i = 0; i < this.getRows().size(); i++) { 
+		    	
+	        for (int j = 0; j < this.getColumns().size(); j++) {
+	            	                    	
+	        	Cell cell = this.getResultado().getCell(new int[]{j,i});
+	            String formattedValue = cell.getFormattedValue();
+	            formattedValue = formattedValue.replace(",", "");
+	            	
+	            double valor = 0.0;
+	            if(!formattedValue.trim().equals("")) {
+	            	valor = Double.parseDouble(formattedValue);
+	            }                							
+				valores.add(valor);	
+	           }
+	     }
+		 this.indicesPadrao = Separatrix.getPercentis(valores);
+		 }
+		 return this.indicesPadrao.size() + 1;
+	}
+		
+	
+	public RenderFMDQLSeparatrix() {
+	}
+
+	
+	@Override
+	public StringBuffer renderResultado(StringBuffer html) {	
+	    
+	    String linhaCabecalhoPercentis = "<tr>";
+	    linhaCabecalhoPercentis = linhaCabecalhoPercentis + "<td nowrap class='rowheading' align='center'>&nbsp;</td>";
+	    for(Double valor : indicesPadrao) {
+	    	linhaCabecalhoPercentis = linhaCabecalhoPercentis + "<td nowrap class='rowheading' align='center'>&nbsp;</td>";
+	    }
+	    linhaCabecalhoPercentis = linhaCabecalhoPercentis + "<td nowrap class='rowheading' align='center'>&nbsp;</td>";
+	    linhaCabecalhoPercentis = linhaCabecalhoPercentis + "</tr>\n"; 
+        html.append(linhaCabecalhoPercentis);	
+	    
+	    
+        linhaCabecalhoPercentis = "<tr>";
+		linhaCabecalhoPercentis = linhaCabecalhoPercentis + "<td nowrap class='rowheading'>&nbsp;</td>\n<td nowrap class='rowheading' colspan='100' align='center'>";
+		
+		NumberFormat nf = new DecimalFormat("0.00");
+		
+	    for(Double valor : indicesPadrao) {
+	    	String x = nf.format(valor);//valor.toString();
+	    	x = x.replace('.', ',');
+	    	linhaCabecalhoPercentis = linhaCabecalhoPercentis + this.gerarEspacamento2(this.indicesPadrao.size()) /*"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"*/ + x;
+	    }  
+	        	    
+        linhaCabecalhoPercentis = linhaCabecalhoPercentis + this.gerarEspacamento2(this.indicesPadrao.size()) /*"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;8*/ + "</td></tr>\n"; 
+        html.append(linhaCabecalhoPercentis);	
+        
+        
+        int contadorPorcentagens = 0;
+        for (int i=0; i<1/*this.getRows().size()*/; i++) {
+            html.append("<tr>");
+            final Position row = this.getRows().get(i);
+            Member memberRow1 = row.get(0);
+                html.append("<td nowrap class='rowheading'>").append(
+                		memberRow1.getUniqueName()).append("</td>");
+          
+            for (int j = 0; j< this.getColumns().size(); j++) {            	                    	
+                        	
+            	Cell cell = this.getResultado().getCell(new int[]{j,i});  
+            	String formattedValue = cell.getFormattedValue();
+            	formattedValue = formattedValue.replace(",", "");
+            	formattedValue = formattedValue.replace(".", "");
+            	
+            	int posicaoValor = Separatrix.posicaoRelativa(Double.parseDouble(formattedValue), indicesPadrao);
+            	
+            	showCellSeparatrix(html, cell, posicaoValor, indicesPadrao.size() + 1);
+                contadorPorcentagens++;
+            
+            }
+            
+            html.append("</tr>");
+        }
+        
+        
+	
+		return html;	   
+	    
+	}
+	
+	
+	
+	private void showCellSeparatrix( StringBuffer out, Cell cell, int posicaovalor, int totalDeIndicesPadrao) {
+    	
+    	if(cell.getFormattedValue().trim().equals("")) {
+    		
+    		 out.append("<td class='cell'></td>");
+    		 out.append("<td class='cell'></td>");
+    	}else {
+    		
+    		for(int i = 0; i < totalDeIndicesPadrao; i++) {
+    			
+    			String linha = "<td class='cell'>";
+    			
+    			
+    			String espacamento = "";
+    			if(posicaovalor == i) {
+    				String procentagemFormatada = this.formatValor(cell.getFormattedValue());
+    				linha = linha + procentagemFormatada;
+    			}else {
+    				espacamento = this.gerarEspacamento(totalDeIndicesPadrao);
+    			}
+    			
+    			
+    			linha = linha + espacamento +"&nbsp;</td>";
+    			out.append(linha);
+    		}    		 
+    	}       
+    }
+	
+	
+	public String gerarEspacamento(int totalDeIndicesPadrao) {
+		String retorno = "";
+		
+		for(int i = 0; i < (24/totalDeIndicesPadrao); i++) {
+			retorno = retorno + "&nbsp;";
+		}
+		
+		return retorno;
+	}
+	
+	
+	public String gerarEspacamento2(int totalDeIndicesPadrao) {
+		String retorno = "";
+		
+		for(int i = 0; i < (25/totalDeIndicesPadrao); i++) {
+			retorno = retorno + "&nbsp;";
+		}
+		
+		return retorno;
+	}
+
+}

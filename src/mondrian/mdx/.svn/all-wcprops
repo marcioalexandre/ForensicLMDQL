@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/mdx
+END
+NamedSetExpr.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/mdx/NamedSetExpr.java
+END
+ParameterExpr.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/mdx/ParameterExpr.java
+END
+QueryPrintWriter.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/mdx/QueryPrintWriter.java
+END
+DimensionExpr.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/mdx/DimensionExpr.java
+END
+LevelExpr.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/mdx/LevelExpr.java
+END
+MemberExpr.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/mdx/MemberExpr.java
+END
+MdxVisitor.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/mdx/MdxVisitor.java
+END
+ResolvedFunCall.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/mdx/ResolvedFunCall.java
+END
+MdxVisitorImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/mdx/MdxVisitorImpl.java
+END
+UnresolvedFunCall.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/mdx/UnresolvedFunCall.java
+END
+HierarchyExpr.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/mdx/HierarchyExpr.java
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/LMDQL/!svn/ver/16/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/mdx/package.html
+END

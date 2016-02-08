@@ -1,0 +1,3 @@
+Este artigo ajuda: 
+
+http://www.oracle.com/technetwork/pt/articles/cloudcomp/primeiros-passos-berkeley-db-xml-517461-ptb.html

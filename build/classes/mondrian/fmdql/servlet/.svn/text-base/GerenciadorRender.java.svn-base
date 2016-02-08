@@ -1,0 +1,63 @@
+package mondrian.fmdql.servlet;
+
+import java.util.Hashtable;
+
+import mondrian.mdx.ResolvedFunCall;
+import mondrian.olap.FunDef;
+import mondrian.olap.Query;
+import mondrian.olap.QueryAxis;
+import mondrian.olap.Result;
+
+public class GerenciadorRender {
+	
+	private static final Hashtable<String, RenderFMDQL> GERENCIADOR_RENDERS;
+	
+	private RenderFMDQL render;
+	
+	
+	
+	static {
+	
+		GERENCIADOR_RENDERS = new Hashtable<String, RenderFMDQL>();
+		GERENCIADOR_RENDERS.put("VAnalysis", new RenderFMDQLVAnalysis());	
+		GERENCIADOR_RENDERS.put("HAnalysis", new RenderFMDQLHAnalysis());
+		GERENCIADOR_RENDERS.put("Separatrix", new RenderFMDQLSeparatrix());	
+		GERENCIADOR_RENDERS.put("NNearestValues", new RenderFMDQLNNearestValues());	
+		GERENCIADOR_RENDERS.put("NNearestValuesPercentual", new RenderFMDQLNNearestValuesPercentual());	
+		GERENCIADOR_RENDERS.put("Cross", new RenderFMDQLCross());	
+	}
+	
+	
+	public GerenciadorRender(Query consulta, Result result) {
+		
+		QueryAxis queryAxis = consulta.getAxes()[1];
+        ResolvedFunCall set = (ResolvedFunCall)queryAxis.getSet();
+        ResolvedFunCall arg = (ResolvedFunCall)set.getArg(0);
+        FunDef funDef = arg.getFunDef();
+        String name = funDef.getName();
+        
+        this.render = GERENCIADOR_RENDERS.get(name);
+        if(this.render != null) {
+        	this.render.setResultado(result);
+        }
+              
+	}
+	
+	
+	public StringBuffer renderFMDQL() {
+		
+		StringBuffer html = new StringBuffer();	
+     
+		if(this.render != null) {
+			this.render.renderizarCabecalho(html);    		
+			this.render.renderResultado(html);
+		}
+           
+       
+       		
+		return html;		
+	}
+	
+		
+
+}

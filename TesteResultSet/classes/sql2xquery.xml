@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<SQL2XQuery>
+  <entities>
+    <entity tableName="account" tagName="db2-fn:xmlcolumn('FOODMART.ACCOUNT.INFO')//account"/>
+    <entity tableName="agg_c_10_sales_fact_1997" tagName="db2-fn:xmlcolumn('FOODMART.agg_c_10_sales_fact_1997.INFO')//agg_c_10_sales_fact_1997"/>
+    <entity tableName="agg_c_14_sales_fact_1997" tagName="db2-fn:xmlcolumn('FOODMART.agg_c_14_sales_fact_1997.INFO')//agg_c_14_sales_fact_1997"/>
+    <entity tableName="agg_c_special_sales_fact_1997" tagName="db2-fn:xmlcolumn('FOODMART.agg_c_special_sales_fact_1997.INFO')//agg_c_special_sales_fact_1997"/>
+    <entity tableName="agg_g_ms_pcat_sales_fact_1997" tagName="db2-fn:xmlcolumn('FOODMART.agg_g_ms_pcat_sales_fact_1997')//agg_g_ms_pcat_sales_fact_1997"/>
+    <entity tableName="agg_l_03_sales_fact_1997" tagName="db2-fn:xmlcolumn('FOODMART.agg_l_03_sales_fact_1997.INFO')//agg_l_03_sales_fact_1997"/>
+    <entity tableName="agg_l_04_sales_fact_1997" tagName="db2-fn:xmlcolumn('FOODMART.agg_l_04_sales_fact_1997.INFO')//agg_l_04_sales_fact_1997"/>
+    <entity tableName="agg_l_05_sales_fact_1997" tagName="db2-fn:xmlcolumn('FOODMART.agg_l_05_sales_fact_1997.INFO')//agg_l_05_sales_fact_1997"/>
+    <entity tableName="agg_lc_100_sales_fact_1997" tagName="db2-fn:xmlcolumn('FOODMART.agg_lc_100_sales_fact_1997.INFO')//agg_lc_100_sales_fact_1997"/>
+    <entity tableName="agg_ll_01_sales_fact_1997" tagName="db2-fn:xmlcolumn('FOODMART.agg_ll_01_sales_fact_1997.INFO')//agg_ll_01_sales_fact_1997"/>
+    <entity tableName="agg_pl_01_sales_fact_1997" tagName="db2-fn:xmlcolumn('FOODMART.agg_pl_01_sales_fact_1997.INFO')//agg_pl_01_sales_fact_1997"/>
+    <entity tableName="category" tagName="db2-fn:xmlcolumn('FOODMART.CATEGORY.INFO')//category"/>
+    <entity tableName="currency" tagName="db2-fn:xmlcolumn('FOODMART.CURRENCY.INFO')//currency"/>
+    <entity tableName="customer" tagName="db2-fn:xmlcolumn('FOODMART.CUSTOMER.INFO')//customer"/>
+    <entity tableName="days" tagName="db2-fn:xmlcolumn('FOODMART.DAYS.INFO')//days"/>
+    <entity tableName="department" tagName="db2-fn:xmlcolumn('FOODMART.DEPARTMENT.INFO')//department"/>
+    <entity tableName="employee" tagName="db2-fn:xmlcolumn('FOODMART.EMPLOYEE.INFO')//employee"/>
+    <entity tableName="employee_closure" tagName="db2-fn:xmlcolumn('FOODMART.EMPLOYEE_CLOSURE.INFO')//employee_closure"/>
+    <entity tableName="expense_fact" tagName="db2-fn:xmlcolumn('FOODMART.EXPENSE_FACT.INFO')//expense_fact"/>
+    <entity tableName="inventory_fact_1997" tagName="db2-fn:xmlcolumn('FOODMART.INVENTORY_FACT_1997.INFO')//inventory_fact_1997"/>
+    <entity tableName="inventory_fact_1998" tagName="db2-fn:xmlcolumn('FOODMART.INVENTORY_FACT_1998.INFO')//inventory_fact_1998"/>
+    <entity tableName="position" tagName="db2-fn:xmlcolumn('FOODMART.POSITION.INFO')//position"/>
+    <entity tableName="product" tagName="db2-fn:xmlcolumn('FOODMART.PRODUCT.INFO')//product"/>
+    <entity tableName="product_class" tagName="db2-fn:xmlcolumn('FOODMART.PRODUCT_CLASS.INFO')//product_class"/>
+    <entity tableName="promotion" tagName="db2-fn:xmlcolumn('FOODMART.PROMOTION.INFO')//promotion"/>
+    <entity tableName="region" tagName="db2-fn:xmlcolumn('FOODMART.REGION.INFO')//region"/>
+    <entity tableName="reserve_employee" tagName="db2-fn:xmlcolumn('FOODMART.RESERVE_EMPLOYEE.INFO')//reserve_employee"/>
+    <entity tableName="salary" tagName="db2-fn:xmlcolumn('FOODMART.SALARY.INFO')//salary"/>
+    <entity tableName="sales_fact_1997" tagName="db2-fn:xmlcolumn('FOODMART.SALES_FACT_1997.INFO')//sales_fact_1997"/>
+    <entity tableName="sales_fact_1998" tagName="db2-fn:xmlcolumn('FOODMART.SALES_FACT_1998.INFO')//sales_fact_1998"/>
+    <entity tableName="sales_fact_dec_1998" tagName="db2-fn:xmlcolumn('FOODMART.SALES_FACT_DEC_1998.INFO')//sales_fact_dec_1998"/>
+    <entity tableName="store" tagName="db2-fn:xmlcolumn('FOODMART.STORE.INFO')//store"/>
+    <entity tableName="store_ragged" tagName="db2-fn:xmlcolumn('FOODMART.STORE_RAGGED.INFO')//store_ragged"/>
+    <entity tableName="time_by_day" tagName="db2-fn:xmlcolumn('FOODMART.TIME_BY_DAY.INFO')//time_by_day"/>
+    <entity tableName="warehouse" tagName="db2-fn:xmlcolumn('FOODMART.WAREHOUSE.INFO')//warehouse"/>
+    <entity tableName="warehouse_class" tagName="db2-fn:xmlcolumn('FOODMART.WAREHOUSE_CLASS.INFO')//warehouse_class"/>
+  </entities>
+  <xmldb name="DB2"/>
+</SQL2XQuery>

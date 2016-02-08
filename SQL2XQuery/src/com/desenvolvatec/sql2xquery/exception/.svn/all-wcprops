@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/LMDQL/!svn/ver/22/LMDQL/Codifica%C3%A7%C3%A3o/jdev/SQL2XQuery/src/com/desenvolvatec/sql2xquery/exception
+END
+ImproperConfigFileException.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/LMDQL/!svn/ver/20/LMDQL/Codifica%C3%A7%C3%A3o/jdev/SQL2XQuery/src/com/desenvolvatec/sql2xquery/exception/ImproperConfigFileException.java
+END
+InvalidColumnItemException.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/LMDQL/!svn/ver/19/LMDQL/Codifica%C3%A7%C3%A3o/jdev/SQL2XQuery/src/com/desenvolvatec/sql2xquery/exception/InvalidColumnItemException.java
+END
+QueryExpressionException.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/LMDQL/!svn/ver/20/LMDQL/Codifica%C3%A7%C3%A3o/jdev/SQL2XQuery/src/com/desenvolvatec/sql2xquery/exception/QueryExpressionException.java
+END
+SQLFunctionException.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/LMDQL/!svn/ver/19/LMDQL/Codifica%C3%A7%C3%A3o/jdev/SQL2XQuery/src/com/desenvolvatec/sql2xquery/exception/SQLFunctionException.java
+END
+FlworExpressionException.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/LMDQL/!svn/ver/20/LMDQL/Codifica%C3%A7%C3%A3o/jdev/SQL2XQuery/src/com/desenvolvatec/sql2xquery/exception/FlworExpressionException.java
+END
+NoTokenFoundException.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/LMDQL/!svn/ver/19/LMDQL/Codifica%C3%A7%C3%A3o/jdev/SQL2XQuery/src/com/desenvolvatec/sql2xquery/exception/NoTokenFoundException.java
+END
+ColumnRefException.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/LMDQL/!svn/ver/19/LMDQL/Codifica%C3%A7%C3%A3o/jdev/SQL2XQuery/src/com/desenvolvatec/sql2xquery/exception/ColumnRefException.java
+END
+NoValidConditItemException.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/LMDQL/!svn/ver/19/LMDQL/Codifica%C3%A7%C3%A3o/jdev/SQL2XQuery/src/com/desenvolvatec/sql2xquery/exception/NoValidConditItemException.java
+END

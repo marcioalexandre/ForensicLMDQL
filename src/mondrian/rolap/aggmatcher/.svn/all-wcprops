@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/rolap/aggmatcher
+END
+DefaultRules.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/rolap/aggmatcher/DefaultRules.java
+END
+DefaultRulesSchema.xml
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/LMDQL/!svn/ver/16/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/rolap/aggmatcher/DefaultRulesSchema.xml
+END
+AggTableManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/rolap/aggmatcher/AggTableManager.java
+END
+DefaultDef.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/LMDQL/!svn/ver/16/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/rolap/aggmatcher/DefaultDef.java
+END
+JdbcSchema.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/rolap/aggmatcher/JdbcSchema.java
+END
+aggregates.dtd
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/LMDQL/!svn/ver/16/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/rolap/aggmatcher/aggregates.dtd
+END
+Recognizer.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/rolap/aggmatcher/Recognizer.java
+END
+AggGen.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/rolap/aggmatcher/AggGen.java
+END
+AggStar.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/LMDQL/!svn/ver/16/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/rolap/aggmatcher/AggStar.java
+END
+ExplicitRecognizer.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/rolap/aggmatcher/ExplicitRecognizer.java
+END
+DefaultRecognizer.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/rolap/aggmatcher/DefaultRecognizer.java
+END
+ExplicitRules.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/LMDQL/!svn/ver/128/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/rolap/aggmatcher/ExplicitRules.java
+END
+DefaultRules.xml
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/LMDQL/!svn/ver/16/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/rolap/aggmatcher/DefaultRules.xml
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/LMDQL/!svn/ver/16/LMDQL/Codifica%C3%A7%C3%A3o/eclipse/MondrianLMDQL/src/mondrian/rolap/aggmatcher/package.html
+END

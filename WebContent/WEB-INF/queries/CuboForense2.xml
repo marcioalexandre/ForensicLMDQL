@@ -1,0 +1,36 @@
+<Schema name="Forense">
+  <Cube name="Cubo Forense" visible="true" cache="true" enabled="true">
+    <Table name="fatos">
+    </Table>
+    <Dimension type="StandardDimension" visible="false" foreignKey="Elemento_idElemento" highCardinality="false" name="Elemento">
+      <Hierarchy name="Nome do Elemento" visible="false" hasAll="false" allMemberName="Todos os Elementos" primaryKey="idElemento" primaryKeyTable="elemento">
+        <Table name="elemento">
+        </Table>
+        <Level name="Elemento" visible="true" table="elemento" column="nome" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+      </Hierarchy>
+    </Dimension>
+    <Dimension type="StandardDimension" visible="false" foreignKey="Empresa_idEmpresa" highCardinality="false" name="Empresa">
+      <Hierarchy name="Nome da Empresa" visible="false" hasAll="false" allMemberName="Todas as Empresas" primaryKey="idEmpresa" primaryKeyTable="empresa">
+        <Table name="empresa">
+        </Table>
+        <Level name="Empresa" visible="true" table="empresa" column="nome" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never" captionColumn="nome">
+        </Level>
+      </Hierarchy>
+    </Dimension>
+    <Dimension type="StandardDimension" visible="false" foreignKey="tempo_idtempo" highCardinality="false" name="Tempo">
+      <Hierarchy name="Tempo" visible="false" hasAll="true" allMemberName="Todas as Datas" primaryKey="idtempo" primaryKeyTable="tempo">
+        <Table name="tempo">
+        </Table>
+        <Level name="Mes" visible="true" table="tempo" column="mes" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never" captionColumn="mes">
+        </Level>
+        <Level name="Ano" visible="true" table="tempo" column="ano" type="Integer" uniqueMembers="false" levelType="Regular" hideMemberIf="Never" captionColumn="ano">
+        </Level>
+      </Hierarchy>
+    </Dimension>
+    <Measure name="Valor" column="valor" datatype="Numeric" aggregator="sum" visible="true">
+    </Measure>
+  </Cube>
+  <UserDefinedFunction name="AdicionaPorcentagem" className="marcio.forense.AdicionaPorcentagem"></UserDefinedFunction>
+  <UserDefinedFunction name="Empresa" className="marcio.forense.Empresa"></UserDefinedFunction>
+</Schema>
