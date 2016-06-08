@@ -49,4 +49,6 @@
   <UserDefinedFunction name="GriConformity" className="mondrian.udf.GriConformity" />  
   <UserDefinedFunction name="GriGaple" className="mondrian.udf.GriGaple" />  
   <UserDefinedFunction name="GriGee" className="mondrian.udf.GriGee" />  
+  <UserDefinedFunction name="ZTest" className="mondrian.udf.ZTest" />  
+  <UserDefinedFunction name="ChiSquaredTest" className="mondrian.udf.ChiSquaredTest" />  
 </Schema>

@@ -14,9 +14,7 @@ public class GerenciadorRender {
 	private static final Hashtable<String, RenderFMDQL> GERENCIADOR_RENDERS;
 	
 	private RenderFMDQL render;
-	
-	
-	
+
 	static {
 	
 		GERENCIADOR_RENDERS = new Hashtable<String, RenderFMDQL>();
@@ -31,6 +29,8 @@ public class GerenciadorRender {
                 GERENCIADOR_RENDERS.put("GriGee", new RenderLMDQLGriGee());
                 GERENCIADOR_RENDERS.put("FirstDigit", new RenderLMDQLFirstDigit());
                 GERENCIADOR_RENDERS.put("EmpiricalRule", new RenderLMDQLEmpiricalRule());
+                GERENCIADOR_RENDERS.put("ZTest", new RenderLMDQLZTest());
+                GERENCIADOR_RENDERS.put("ChiSquaredTest", new RenderLMDQLChiSquaredTest());
 	}
 	
 	
@@ -56,6 +56,12 @@ public class GerenciadorRender {
         }else if(exp.toString().contains("GriGee")){
             	System.out.println("There is GriGee operator");
             	name = "GriGee";
+        }else if(exp.toString().contains("ZTest")){
+            	System.out.println("There is ZTest operator");
+            	name = "ZTest";
+        }else if(exp.toString().contains("ChiSquaredTest")){
+            	System.out.println("There is ChiSquaredTest operator");
+            	name = "ChiSquaredTest";
         }
 
         if (name != null){

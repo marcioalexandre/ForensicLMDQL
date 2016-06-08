@@ -1,18 +1,24 @@
+/*
+ * Copyright 2016 Marcio Alexandre P. Silva
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ */
+
 package mondrian.fmdql.servlet;
 
+import java.text.DecimalFormat;
 import java.util.ArrayList;
 import java.util.List;
-
 import mondrian.olap.Cell;
 import mondrian.olap.Member;
 import mondrian.olap.Position;
 
 /**
  *
- * @author Marcio (marcio.alexandre83@gmail.com) / Paulo (paulo.caetano@pro.unifacs.br)
+ * @author Marcio Silva (marcio.alexandre83@gmail.com), Paulo (paulo.caetano@pro.unifacs.br)
  */
-
-public class RenderLMDQLFirstDigit extends RenderFMDQL implements IRenderFMDQL {
+public class RenderLMDQLChiSquaredTest extends RenderFMDQL implements IRenderFMDQL {
         int coun1=0, coun2=0, coun3=0, coun4=0, coun5=0, coun6=0, coun7=0, coun8=0, coun9=0, total=0;
 	public int quantidadeDeColunasExtras() {
 		return 2;
@@ -72,7 +78,7 @@ public class RenderLMDQLFirstDigit extends RenderFMDQL implements IRenderFMDQL {
 
                     for (int j=0; j<columns.size(); j++) {
                         Cell cell = this.getResultado().getCell(new int[]{j,i});                
-                        showCellFirstDigit(html, cell, memberName,i);
+                        this.showCellChiSquaredTest(html, cell, memberName,i);
                         //contadorPorcentagens++;
                     }
 
@@ -90,7 +96,8 @@ public class RenderLMDQLFirstDigit extends RenderFMDQL implements IRenderFMDQL {
             return html;
 	}
 	
-        private void showCellFirstDigit(StringBuffer out, Cell cell, String ele, int i) {
+        private void showCellChiSquaredTest(StringBuffer out, Cell cell, String ele, int i) {
+            System.out.println("showCellChiSquaredTest");
             if(cell.getFormattedValue().trim().equals("")) {
                      out.append("<td class='cell'>-</td>");
                      out.append("<td class='cell'>-</td>");
@@ -121,23 +128,39 @@ public class RenderLMDQLFirstDigit extends RenderFMDQL implements IRenderFMDQL {
                              case 8: coun8++; break;
                              case 9: coun9++; break;
                      }
+                     //p0 probability of observing https://en.wikipedia.org/wiki/Z-test
+                     //p1 waited probalibility - https://www.mathsisfun.com/numbers/benfords-law.html
+                     double c1 = this.getChiSquaredTest(coun1*100/total, 30.10);
+                     double c2 = this.getChiSquaredTest(coun2*100/total, 17.61);
+                     double c3 = this.getChiSquaredTest(coun3*100/total, 12.49);
+                     double c4 = this.getChiSquaredTest(coun4*100/total, 9.69);
+                     double c5 = this.getChiSquaredTest(coun5*100/total, 7.92);
+                     double c6 = this.getChiSquaredTest(coun6*100/total, 6.69);
+                     double c7 = this.getChiSquaredTest(coun7*100/total, 5.80);
+                     double c8 = this.getChiSquaredTest(coun8*100/total, 5.11);
+                     double c9 = this.getChiSquaredTest(coun9*100/total, 4.58);
+                     DecimalFormat fmt = new DecimalFormat("#,##0.00");
+			//double abs = Double.parseDouble(fmt.format(Math.abs(po-pe)));
                      String flag = "";
-                         flag += "1: "+coun1*100/total+"&#37;<br>";
-                         flag += "2: "+coun2*100/total+"&#37;<br>";
-                         flag += "3: "+coun3*100/total+"&#37;<br>";
-                         flag += "4: "+coun4*100/total+"&#37;<br>";
-                         flag += "5: "+coun5*100/total+"&#37;<br>";
-                         flag += "6: "+coun6*100/total+"&#37;<br>";
-                         flag += "7: "+coun7*100/total+"&#37;<br>";
-                         flag += "8: "+coun8*100/total+"&#37;<br>";
-                         flag += "9: "+coun9*100/total+"&#37;<br>";
+                         flag += "<font color='red'>Rule: 0 < value < 15.507 </font><br>";
+                         flag += "1: "+fmt.format(c1)+"<br>";
+                         flag += "2: "+fmt.format(c2)+"<br>";
+                         flag += "3: "+fmt.format(c3)+"<br>";
+                         flag += "4: "+fmt.format(c4)+"<br>";
+                         flag += "5: "+fmt.format(c5)+"<br>";
+                         flag += "6: "+fmt.format(c6)+"<br>";
+                         flag += "7: "+fmt.format(c7)+"<br>";
+                         flag += "8: "+fmt.format(c8)+"<br>";
+                         flag += "9: "+fmt.format(c9)+"<br>";
 
+                        /*
                          flag += "<a href='#' onclick='window.open(\"graphFirstDigit.jsp?one="+coun1*100/total+"&two="
                                  + ""+coun2*100/total+"&three="+coun3*100/total+"&four="+coun4*100/total+"&five="+coun5*100/total+""
                                  + "&six="+coun6*100/total+"&seven="+coun7*100/total+"&eight="+coun8*100/total+"&nine="
                                  + ""+coun9*100/total+"\", \"_blank\", \"toolbar=yes, scrollbars=yes, resizable=yes, top=500,"
                                  + " left=500, width=400, height=400\")'"
                                  + "> graphic view </a>";
+                        */
                                  
                      out.append("<td class='cell'>").append(flag).append("</td>");
 
@@ -170,5 +193,15 @@ public class RenderLMDQLFirstDigit extends RenderFMDQL implements IRenderFMDQL {
             }
             System.out.println("Digito: "+fdigit);
             return fdigit;
-	}
+        }
+            
+        private double getChiSquaredTest(double po, double pe){
+            try{
+                //System.out.println("X^2 Result: "+(Math.pow(po, 2) - (2*po*pe) + Math.pow(pe, 2))/pe);
+		return (Math.pow(po, 2) - (2*po*pe) + Math.pow(pe, 2))/pe;
+            }catch(Exception e){
+                throw new RuntimeException("ZTest - Erro: "+e.getMessage());	
+            }
+        }
 }
+
