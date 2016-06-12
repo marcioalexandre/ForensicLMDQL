@@ -21,7 +21,6 @@ import org.w3c.dom.Document;
 import org.w3c.dom.Node;
 
 /**
- *
  * @author marcio.alexandre83@gmail.com / paulo.caetano@pro.unifacs.br
  */
 public class RenderLMDQLGriGaple extends RenderFMDQL implements IRenderFMDQL {
@@ -75,7 +74,6 @@ public StringBuffer renderResultado(StringBuffer html) {
                 html.append("<tr>");
                 final Position row = rows.get(i);
                 String memberName = null;
-                //apresenta elementos das linhas
                 int x = 0;
                 for (Member member : row) {
                     x++;
@@ -101,7 +99,7 @@ public StringBuffer renderResultado(StringBuffer html) {
         } else {
             html.append("<tr>");
             for (int i=0; i<columns.size(); i++) {
-            	html.append("marcio - 2");
+            	//html.append("---");
             	//showCellVAnalysis(html,this.getResultado().getCell(new int[]{i}), 1.0);
             }
             html.append("</tr>");
@@ -159,20 +157,16 @@ public StringBuffer renderResultado(StringBuffer html) {
         
         private double getGriGapleCalc(int a, int b, int c, int d){
             /*
-                Item (a): quantidade de elemento GRI utilizados no relatório.
-                Item (b): quantidade de elementos omissão justificada OJ.
-                Item (c): número total de elementos especificados pela GRI.
-                Item (d): número de elementos não aplicáveis àquela empresa.
+             *   (a): total numbers of GRI elements in the reporting.
+             *   (b): Justified omission.
+             *   (c): GRI element number.
+             *   (d): number of not applicable element .
             */
-            //System.out.println("Valor Elementos Usado:"+a );
-            //System.out.println("Valor Elementos OJ:"+b );
-            //System.out.println("Valor Total GRI:"+c );
-            //System.out.println("Valor Não aplicados:"+d );
+
             double n = c-d;
             if (n == 0 | n == 0.0){
                 n = 1;
             }
-            System.out.println("("+a+"+"+b+")/("+c+"-"+d+")");
             return (a+b)/n;
         }
         

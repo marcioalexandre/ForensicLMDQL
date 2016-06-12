@@ -27,15 +27,11 @@ public class RenderLMDQLGriConformity extends RenderFMDQL implements IRenderFMDQ
 		return 2;
 	}
 	public StringBuffer renderResultado(StringBuffer html) {
-		// exemplo VAnalysis
 		List<Position> columns = this.getResultado().getAxes()[0].getPositions();
 	    List<Position> rows = null;
 	    if( this.getResultado().getAxes().length == 2 ) {
 	         rows = this.getResultado().getAxes()[1].getPositions();
 	    }
-		
-		
-        //if is two axes, show
               
         List<Double> valores = new ArrayList<Double>();
         
@@ -73,7 +69,6 @@ public class RenderLMDQLGriConformity extends RenderFMDQL implements IRenderFMDQ
                 html.append("<tr>");
                 final Position row = rows.get(i);
                 String memberName = null;
-                //apresenta elementos das linhas
                 int x = 0;
                 for (Member member : row) {
                     x++;
@@ -89,7 +84,7 @@ public class RenderLMDQLGriConformity extends RenderFMDQL implements IRenderFMDQ
                 for (int j=0; j<columns.size(); j++) {
                     Cell cell = this.getResultado().getCell(new int[]{j,i});                
                     showCellGriConformity(html, cell, memberName);
-                    //contadorPorcentagens++;
+
                 }
                 
                 html.append("</tr>");
@@ -109,8 +104,6 @@ public class RenderLMDQLGriConformity extends RenderFMDQL implements IRenderFMDQ
 		
 	
 		return html;
-		
-		//return html.append("<tr><td>Marcio Teste 1</td><td>Marcio Teste 2</td></tr><teste>");
 	}
 	
 	private void showCellGriConformity(StringBuffer out, Cell cell, String ele) {
