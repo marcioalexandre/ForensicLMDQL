@@ -5,5 +5,5 @@ OLAP language for financial fraud detection with which the auditor (or financial
 
 ![](https://marcioalexandre.files.wordpress.com/2015/06/firstdigitoperator.jpg?w=640)
 
-See more: https://marcioalexandre.wordpress.com/projects/financial-olap/
+See more: https://xbrlframework.wordpress.com/wiki/forensic-lmdql/
 
